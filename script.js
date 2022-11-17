@@ -1,7 +1,8 @@
-</s>/*////////////////////logo que cai\\\\\\\\\\\\\\
+/*////////////////////logo que cai\\\\\\\\\\\\\\
 const flags = {
     rightOrigin: {
       firstBreak: false,
+      
       secondBreak: false,
     },
     leftOrigin: {
