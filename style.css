@@ -11,7 +11,7 @@ h3 { color: rgb(169, 16, 118) ; text-align: center;
 }
 
 
-a{
+/*a{
        text-decoration: none;
        background-color: white;
        color: black;
@@ -19,7 +19,9 @@ a{
        padding: 1em 3px 30px 5px;
        
    }
-<body style= " background-color : #007fff;"
+<body style= " background-color : #007fff;"*/
+
+
 /*//////////////////////////////login que cai/////////////////////
 
 element.style {
@@ -37,3 +39,41 @@ body {
     margin: 8px;
 }
 ////////////////////////////////////*/
+/*//////////////////////////////cabecario e roda pe/////////////////////*/
+
+
+
+body{
+    min-height:1000px;
+    background:gray;
+    font-family:Arial;
+  }
+  
+  header{
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:white;
+    text-align:center;
+    padding: 20px 0;
+  }
+  
+  
+  footer{
+    display:block;
+    position:fixed;
+    width:100%;
+    bottom:0vh;
+    left:0;
+    background:white;
+    text-align:center;
+    padding: 20px 0;
+  }
+  
+  main{
+    margin-top:80px;
+    color:white;
+  }
+  /*////////////////////////////////////
