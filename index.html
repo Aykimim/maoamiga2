@@ -1,70 +1,92 @@
 <!--/////////////////////////////////////////  Carregar as sessões para a memória... ////////////////////////////-->
 
-<php?
-	session_start();
-	
-	
-	$_SESSION['servidor']   = "localhost";
-	$_SESSION['login']      = "root";
-	$_SESSION['senha']      = "";
-	$_SESSION['bancoDados'] = "db_sistema";
-
-?>
-<!--///////////////////////////////////////////////////////////////////////////////////////-->
-<!DOCTYPE html>
-<html lang='pt-BR'>
-<!-- Olá, Eykimim -->
-<!-- cabecario-->
+<php? session_start(); $_SESSION['servidor']="localhost" ; $_SESSION['login']="root" ; $_SESSION['senha']="" ;
+	$_SESSION['bancoDados']="db_sistema" ; ?>
+	<!--///////////////////////////////////////////////////////////////////////////////////////-->
+	<!DOCTYPE html>
+	<html lang='pt-BR'>
+	<!-- Olá, Eykimim -->
+	<!-- cabecario-->
 	<!--///////////////////////////////////////////diretriz/////////////////////////////////////////////////-->
+
 	<head>
 		<meta charset='UTF-8' />
 		<title>Mão amiga</title>
 		<style rel='stylesheet' type='text/css'>
 
 		</style>
-		<link href='style.css' rel='stylesheet' type='text/css' /> 
-		<body style= " background-color : white;" >
-	</head >
-	
-<!--///////////////////////////////////////////////////////////////////////////////////////-->
-		
-	<!--	/////////////////////////////////////////cabecario//////////////////////////////////////////////-->
-<body>
+		<link href='style.css' rel='stylesheet' type='text/css' />
 
-<header class="main_header container">
-        
-    <div class="content">
-    
-        <div class="logo">
-            <a href="index.html" title="maoamiga"><img src="img/logo sem fundo.png" alt="The Barber Shop" title="The Barber Shop"/></a>
-        </div>
+	<body style=" background-color : white;">
+		</head>
 
-        <div class="clear"></div>
-    
-    </div>
-
-</header>
 		<!--///////////////////////////////////////////////////////////////////////////////////////-->
-	
-	<!--/////////////////////////////////////////atalho na ajuda de localizacao//////////////////////////////////////////////-->
 
-
-           </br><h1 href="base.html" id=a> CODIGO BASE </h3></br>
-		<h3 href="cadastro.html" id=b> CADASTRO </h3></br>
-		<h3 href="construcao.html" id=c> EM CONSTRUCAO </h3></br>
-		<h3 href="contado.html" id=d> CONTATOS DO SITE </h3></br>
-		<h3 href="escolha.html" id=e> ESCOLHA ENTRE LOGIN E CADASTRAR </h3></br>
-		<h3 href="esqueceu.html" id=f> ESQUECEU A SENHA </h3></br>
-		<h3 href="exibe_cadastros.html" id=g> EXIBIR CADASTROS </h3></br>
-		<h3 href="home.html" id=h> PAGINA INICIAL PORQUE CRIEI ISSO SE TEM INDEX? </h3></br>
-		<h3 href="index.html" id=i> INDEX PRIMEIRA PAGINA </h3></br>
-		<h3 href="login.html" id=j> LOGIN </h3></br>
-		<h3 href="perfis editor.html" id=k> ONDE O DONO DO PERFIL VAI EDITAR ELE </h3></br>
-		<h3 href="perfis.html" id=m> EXIBICAO DO PERFIL </h3></br>
-		<h3 href="politica.html" id=n> PAGINA QUE FALA DAS POLITICAS DO SITE </h3></br>
-		<h3 href="sobre.html" id=o> PAGINA QUE FALA SOBRE O SITE </h3></br>
+		<!--	/////////////////////////////////////////cabecario//////////////////////////////////////////////-->
 		
-		<!--	<html>
+			<header>
+				<div style='position:absolute; top:0px; left:0px;'>
+				<img src="img/51291.png"height="90" width="3000" alt="img" id="barrapos" /></div>
+				
+				<div style='position:absolute; top:0px; left:0px;'></div>
+			    <img src="img/03989e.jpg"height="110" width="3000" alt="img" id="barrapos" /></div>
+				
+				<div style='position:absolute; top:-80px; left:0px;'>
+				<img src="img/logo sem fundo.png"height="250" width="250" alt="img" id="imgpos" /></div>
+				
+				<div style="display:inline-block;vertical-align:top;">		
+				</div>
+				
+				<div style="display:inline-block;" id="textopos">
+				<h4>
+				
+				</h4>
+				</div>
+					<div style="display:inline-block;vertical-align:top;">
+	
+
+
+				
+			</div>
+				 </body>
+								
+				
+				
+							
+					<a href="https://www.instagram.com/cecilia_freitas_27/"target="_blank" target="_blank"id="inspos">
+				   <center><img src="instagram.jpg"BORDER=10 height="50" width="50"></center>
+				</a>
+				
+				
+					<a href="https://twitter.com/camo_mila_27"target="_blank" target="_blank"id="twipos">
+				   <center><img src="twitter.jpg"BORDER=10 height="50" width="50"></center>				
+				</a>
+					
+				
+						
+						   </header>
+			<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+			<!--/////////////////////////////////////////atalho na ajuda de localizacao//////////////////////////////////////////////-->
+
+
+			</br>
+			<h1 href="base.html" id=a> CODIGO BASE </h3></br>
+				<h3 href="cadastro.html" id=b> CADASTRO </h3></br>
+				<h3 href="construcao.html" id=c> EM CONSTRUCAO </h3></br>
+				<h3 href="contado.html" id=d> CONTATOS DO SITE </h3></br>
+				<h3 href="escolha.html" id=e> ESCOLHA ENTRE LOGIN E CADASTRAR </h3></br>
+				<h3 href="esqueceu.html" id=f> ESQUECEU A SENHA </h3></br>
+				<h3 href="exibe_cadastros.html" id=g> EXIBIR CADASTROS </h3></br>
+				<h3 href="home.html" id=h> PAGINA INICIAL PORQUE CRIEI ISSO SE TEM INDEX? </h3></br>
+				<h3 href="index.html" id=i> INDEX PRIMEIRA PAGINA </h3></br>
+				<h3 href="login.html" id=j> LOGIN </h3></br>
+				<h3 href="perfis editor.html" id=k> ONDE O DONO DO PERFIL VAI EDITAR ELE </h3></br>
+				<h3 href="perfis.html" id=m> EXIBICAO DO PERFIL </h3></br>
+				<h3 href="politica.html" id=n> PAGINA QUE FALA DAS POLITICAS DO SITE </h3></br>
+				<h3 href="sobre.html" id=o> PAGINA QUE FALA SOBRE O SITE </h3></br>
+
+				<!--	<html>
 			main.js
 		<head>
     <link rel="stylesheet" href="styles.css" />
@@ -92,65 +114,64 @@
   </body>
 </html>
 -->
-<!--///////////////////////////////////////////////////////////////////////////////////////-->
-	
-		<!--/////////////////////////////////////////     cidades       //////////////////////////////////////////////-->
-		<div class="row">
-			
-			<div class="coluna">
-			  <img src="manhu" alt="descrição da imagem"BORDER=5 style="width:100%">
-			</div>
-			<div class="coluna">
-			  <img src="arte2.jpeg" alt="descrição da imagem"BORDER=5 style="width:100%">
-			</div>
-			<div class="coluna">
-				<img src="arte2.jpeg" alt="descrição da imagem"BORDER=5 style="width:100%">
-			  </div>
-			</div>
-		</side>
+				<!--///////////////////////////////////////////////////////////////////////////////////////-->
 
-<!--///////////////////////////////////////////////////////////////////////////////////////-->
-               <img src="logo sem fundo.png"height="250" width="250" alt="img" id="imgpos" />
-	
-		<!-- Cabeçalho da página... -->
-		<header>
-	        <img src="51291.png"height="350" width="2000" alt="img" id="barrapos" />
-		
-		<img src="03989e.png"height="350" width="2000" alt="img" id="barrapos" />
-			
-		</header>
-		
-		<nav><!-- Navegação da página... -->
- <label> BASE 123</label>	
- </br>		
-      Encontre 
-Profissionais 
-de Alto Padrão
-      </br>
-      
-      Estado de Minas Gerais
-      </br>
-      
-      <!--  -->
-      
-      
-		</nav>
-		
-		
-		<side><!-- nao lembro -->
-		
-		</side>
+				<!--/////////////////////////////////////////     cidades       //////////////////////////////////////////////-->
+				<div class="row">
+
+					<div class="coluna">
+						<img src="img/manhuacu.png" alt="descrição da imagem" BORDER=5 style="width:100%">
+					</div>
+					<div class="coluna">
+						<img src="img/manhumirim.png" alt="descrição da imagem" BORDER=5 style="width:100%">
+					</div>
+					<div class="coluna">
+						<img src="img/simonesia.png" alt="descrição da imagem" BORDER=5 style="width:100%">
+					</div>
+				</div>
+				</side>
+
+				<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+
+				<!-- Cabeçalho da página... -->
+
+
+				<nav>
+					<!-- Navegação da página... -->
+					<label> BASE 123</label>
+					</br>
+					Encontre
+					Profissionais
+					de Alto Padrão
+					</br>
+
+					Estado de Minas Gerais
+					</br>
+
+					<!--  -->
+
+
+				</nav>
+
+
+				<side>
+					<!-- nao lembro -->
+
+				</side>
 
 
 
-		<footer><!-- Rodapé -->
-		 <a href="sobre.html" id=bota1pos> Sobre </a>
-		 <a href="contato.html" id=bota3pos> Contato</a>
-		 <a href="politica.html" id=bota2pos> Politica de Priprivacidade</a>
-		 <a href="cadastro.html" id=bota3pos> Anunciar</a>
-      
-      
-		</footer>
-    
-	</body>
-</html>
+				<footer>
+					<!-- Rodapé -->
+					<a href="sobre.html" id=bota1pos> Sobre </a>
+					<a href="contato.html" id=bota3pos> Contato</a>
+					<a href="politica.html" id=bota2pos> Politica de Priprivacidade</a>
+					<a href="cadastro.html" id=bota3pos> Anunciar</a>
+
+
+				</footer>
+
+		</body>
+
+	</html>
