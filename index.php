@@ -1,3 +1,6 @@
+<!--https://blog.dankicode.com/como-criar-um-sistema-de-cadastro-com-php-e-mysql/
+
+https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-acordo-com-o-usu%C3%A1rio-->
 <!DOCTYPE html>
 <html lang="en">
  
@@ -19,13 +22,13 @@
             <div class="textbox">
                 <i class="fa fa-user" aria-hidden="true"></i>
                 <input type="text" placeholder="Username"
-                         name="username" value="">
+                         name="usuario" value="">
             </div>
  
             <div class="textbox">
                 <i class="fa fa-lock" aria-hidden="true"></i>
                 <input type="password" placeholder="Password"
-                         name="password" value="">
+                         name="senha" value="">
             </div>
  
             <input class="button" type="submit"

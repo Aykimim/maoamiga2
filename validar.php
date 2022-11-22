@@ -13,8 +13,8 @@ function test_input($data) {
   
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
      
-    $username = test_input($_POST["username"]);
-    $password = test_input($_POST["password"]);
+    $username = test_input($_POST["usuario"]);
+    $password = test_input($_POST["senha"]);
     $stmt = $conn->prepare("SELECT * FROM adminlogin");
     $stmt->execute();
     $users = $stmt->fetchAll();
@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          
         if(($user['username'] == $username) &&
             ($user['password'] == $password)) {
-                header("location: adminpage.php");
+                header("location: perfis editor.html");
         }
         else {
             echo "<script language='javascript'>";
