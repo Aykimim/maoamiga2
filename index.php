@@ -22,9 +22,9 @@
 
 https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-acordo-com-o-usu%C3%A1rio-->
 
- 
+<!--?php
 <body>
-    <form action="validarlogin.php" method="post">0
+    <form method="post" action="validarlogin.php" >0
         <div class="login-box">
             <h1>Login</h1>
  
@@ -45,9 +45,18 @@ https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-aco
         </div>
     </form>
 </body>
- 
-</html>
-
+?>
+</html>-->
+<form method="post" action="validarlogin.php" id="formlogin" name="formlogin" >
+<fieldset id="fie">
+<legend>LOGIN</legend><br />
+<label>Nome : </label>
+<input type="text" name="usuario" id="usuario"  /><br />
+<label>Senha :</label>
+<input type="password" name="senha" id="senha" /><br />
+<input type="submit" value="LOGAR  "  />
+</fieldset>
+</form>
 
 
 	<!--///////////////////////////////////////////////////////////////////////////////////////-->
