@@ -108,44 +108,17 @@ https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-aco
 				<a href="politica.html" id=n> PAGINA QUE FALA DAS POLITICAS DO SITE </a></br>
 				<a href="sobre.html" id=o> PAGINA QUE FALA SOBRE O SITE </a></br>
 
-				<!--	<html>
-			main.js
-		<head>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="./style.css"></script>
-  </head>
-  <body>
-    <form class="form-wrap">
-      <input 
-        type="text"  
-        class="input origin-right" 
-        placeholder="Full Name"
-        style="transform: rotate(-1deg)"
-      />
-      <input 
-        type="text" 
-        class="input origin-left" 
-        placeholder="Password"
-        style="transform: rotate(2deg)"
-      />
-
-      <button class="submit" type="submit">
-        Login
-      </button>
-    </form>
-  </body>
-</html>
--->
+				
 				<!--///////////////////////////////////////////////////////////////////////////////////////-->
 
 				
 
 		
 
-				<nav><!-- Navegação da página... -->
+				
 					
 		<!--/////////////////////////////////////////     cidades       //////////////////////////////////////////////-->
-				
+				<nav><!-- Navegação da página... -->
 				<center>Estado de Minas Gerais</center>
 				
 					<div class="coluna">
@@ -160,10 +133,10 @@ https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-aco
 					</div>
 				</div>
 				</side>
-
+</nav>
 				<!--///////////////////////////////////////////////////////////////////////////////////////-->
 
-				</nav>
+				
 
 
 				<side>
@@ -182,7 +155,7 @@ https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-aco
 					
 					<div style='position:absolute;'>
 					
-					<a href="sobre.html" class="classe1" id=bota1pos> Sobre &nbsp&nbsp&nbsp </a>
+					<a href="sobre.html" class="classe1" id=bota1pos> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Sobre &nbsp&nbsp&nbsp </a>
 				    <a href="contato.html" class="classe1"id=bota3pos> Contato  &nbsp&nbsp&nbsp</a>
 					<a href="politica.html" class="classe1"id=bota2pos> Politica de Priprivacidade  &nbsp&nbsp&nbsp</a>
 					<a href="cadastro.html" class="classe1"id=bota3pos> Anunciar  &nbsp&nbsp&nbsp</a>	
