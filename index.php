@@ -17,49 +17,7 @@
 
 		<!--///////////////////////////////////////////////////////////////////////////////////////-->
 
-        <!--/////////////////////////////////////////  Carregar as sessões para a memória... ////////////////////////////-->
-<!--https://blog.dankicode.com/como-criar-um-sistema-de-cadastro-com-php-e-mysql/
 
-https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-acordo-com-o-usu%C3%A1rio-->
-
-<!--?php
-<body>
-    <form method="post" action="validarlogin.php" >0
-        <div class="login-box">
-            <h1>Login</h1>
- 
-            <div class="textbox">
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <input type="text" placeholder="Username"
-                         name="usuario" value="">
-            </div>
- 
-            <div class="textbox">
-                <i class="fa fa-lock" aria-hidden="true"></i>
-                <input type="password" placeholder="Password"
-                         name="senha" value="">
-            </div>
- 
-            <input class="button" type="submit"
-                     name="login" value="Sign In">
-        </div>
-    </form>
-</body>
-?>
-</html>-->
-<form method="post" action="validarlogin.php" id="formlogin" name="formlogin" >
-<fieldset id="fie">
-<legend>LOGIN</legend><br />
-<label>Nome : </label>
-<input type="text" name="usuario" id="usuario"  /><br />
-<label>Senha :</label>
-<input type="password" name="senha" id="senha" /><br />
-<input type="submit" value="LOGAR  "  />
-</fieldset>
-</form>
-
-
-	<!--///////////////////////////////////////////////////////////////////////////////////////-->
 
 
 		<!--	/////////////////////////////////////////cabecario//////////////////////////////////////////////-->
@@ -77,11 +35,6 @@ https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-aco
 				<img src="img/logo sem fundo.png"height="250" width="250" alt="img" id="imgpos" /></div>
 				</a>	
 
-				
-					
-					
-
-			
 				<div style='position:absolute; top:40px; right:0px;'>
 				<a href="cadastro.html" class="classe2"> Cadastro &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a></div>
 				
@@ -111,7 +64,25 @@ https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-aco
 
 
 			<!--///////////////////////////////////////////////////////////////////////////////////////-->
+        <!--/////////////////////////////////////////  Carregar as sessões para a memória... ////////////////////////////-->
+<!--https://blog.dankicode.com/como-criar-um-sistema-de-cadastro-com-php-e-mysql/
 
+https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-acordo-com-o-usu%C3%A1rio-->
+
+
+<form method="post" action="validarlogin.php" id="formlogin" name="formlogin" >
+<fieldset id="fie">
+<legend>LOGIN</legend><br />
+<label>Nome : </label>
+<input type="text" name="usuario" id="usuario"  /><br />
+<label>Senha :</label>
+<input type="password" name="senha" id="senha" /><br />
+<input type="submit" value="LOGAR  "  />
+</fieldset>
+</form>
+
+
+	<!--///////////////////////////////////////////////////////////////////////////////////////-->
 
 
 
