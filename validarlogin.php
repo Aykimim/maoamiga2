@@ -1,7 +1,7 @@
-validar.php
+
 <?php
  
-include_once('connection.php');
+include_once('conector.php');
   
 function test_input($data) {
      
