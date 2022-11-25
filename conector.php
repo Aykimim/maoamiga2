@@ -1,14 +1,13 @@
+<meta charset="utf-8">
 <?php
-    $dbname="kimmim21_maoamigaassis";
-    $dbuser="kimmim21_eykimim";
-    $dbpassword="pozinhomajicu18";
+$host = "localhost";
+$user = "kimmim21_eykimim";
+$pass = "pozinhomajicu18";
+$banco = "kimmim21_maoamigaassis";
+$conexao = new mysqli($host,$user,$pass,$banco);
 
-    try{
-        $conn=new PDO('mysql:host=localhost;dbname=kimmim21_maoamigaassis'.$dbname,$dbuser,$dbpassword); #1
-        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); #2
-    }catch(PDOException $error){
-        return '<h3>Erro de conexão:</h3><p>'.$error->getMessage().'</p>';
-    }
+if (mysqli_connect_errno()) {
+    die('Não foi possível conectar-se ao banco de dados: ' . mysqli_connect_error());
+    exit();
+}
 ?>
-///////////////////////
-

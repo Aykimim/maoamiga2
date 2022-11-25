@@ -1,4 +1,4 @@
-<!-- Olá, Eykimim -->
+	<!-- Olá, Eykimim -->
 <!--///////////////////////////////////////////diretriz/////////////////////////////////////////////////-->
 <!DOCTYPE HTML>
 <html lang="pt-br">
@@ -25,7 +25,14 @@
 </br>
 </br>
 <!-- Conteúdo -->
-
+<h2>Nossa missão</br></br>
+						
+	No momento atual, se você não está na internet, você não existe com isso a necessidade de ter</br>
+	uma rede social ou um web site se tornou fundamental para qualquer negócio,</br>
+	principalmente para trabalhadores autônomos que em sua maioria não possui loja fixa.</br>
+	Com isso em mente este projeto visa construir um espaço de negócios seguro para </br>
+	trabalhadores autônomos.</br>
+</h2>
 
 
 
@@ -37,3 +44,5 @@
 
 </body>
 </html>
+
+

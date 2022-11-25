@@ -38,7 +38,7 @@
 			<a href="cadastro.html" class="classe2"> Cadastro &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a></div>
 			
 			<div style='position:absolute; top:40px; right:0px;'>
-			<a href="login.html"class="classe2" > Login &nbsp&nbsp&nbsp&nbsp</a></div>	
+			<a href="login.php"class="classe2" > Login &nbsp&nbsp&nbsp&nbsp</a></div>	
 			
 
 			 </body>
