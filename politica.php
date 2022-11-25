@@ -8,7 +8,11 @@
 
 
      <nav>
-          <object width="100%" height="65px" data="base.html"></object>
+		
+		<?php include 'header.php'; ?>
+		<h1>Página</h1>
+		<!-- Conteúdo -->
+	<?php include 'footer.php'; ?>
      </nav>
 
 </body>
