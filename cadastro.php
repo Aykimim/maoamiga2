@@ -70,6 +70,7 @@ require ("conector.php");
                     <td>Foto:</td>
                     <td><input type="text" name="foto" required placeholder="Foto do Funcionário" id="foto" class="txt" /></td>
                 </tr>
+                https://rafaelcouto.com.br/upload-simples-de-imagem-com-php-mysql/
                 <tr>    
                     <td colspan="2"><input type="submit" value="Cadastrar" name="go" id="botao_cad"></td>
                 </tr>

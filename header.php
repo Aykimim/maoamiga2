@@ -30,12 +30,12 @@
 			<img src="img/03989e.jpg"height="95" width="3000" alt="img" id="barrapos" /></div>
 			
 			<div style='position:absolute; top:-80px; left:0px;'>
-			<a href="index.html" >
+			<a href="index.php" >
 			<img src="img/logo sem fundo.png"height="250" width="250" alt="img" id="imgpos" /></div>
 			</a>	
 
 			<div style='position:absolute; top:40px; right:0px;'>
-			<a href="cadastro.html" class="classe2"> Cadastro &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a></div>
+			<a href="cadastro.php" class="classe2"> Cadastro &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a></div>
 			
 			<div style='position:absolute; top:40px; right:0px;'>
 			<a href="login.php"class="classe2" > Login &nbsp&nbsp&nbsp&nbsp</a></div>	
