@@ -31,6 +31,14 @@
 Contato</br>
 
 Autores: Eykimim Aniceto Pereira & YASMIM DUTRA COIMBRA .</br>
+<div class="coluna">
+				
+					<img src="img/eykimim.jpg" alt="descrição da imagem" BORDER=5 style="width:100%">
+				</div>
+				<div class="coluna">
+					<img src="img/yasmim.jpg" alt="descrição da imagem" BORDER=5 style="width:100%">
+				</div>
+			</div>
 
 Para entrar em contato preencher o formulario</br>
 </h1>

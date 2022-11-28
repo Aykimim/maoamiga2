@@ -53,15 +53,17 @@
 	</br>
 </br>
 <a href="home.php" id=h> PAGINA INICIAL PORQUE CRIEI ISSO SE TEM INDEX? </a></br>
-		<a href="base.php" id=a> CODIGO BASE </a></br>
-		<a href="index.php" id=i> INDEX PRIMEIRA PAGINA </a></br>
-			 <a href="cadastro.php" id=b> CADASTRO </a></br>
+		    <a href="base.php" id=a> CODIGO BASE </a></br>
+		    <a href="index.php" id=i> INDEX PRIMEIRA PAGINA </a></br>
+			<a href="cadastro.php" id=b> CADASTRO </a></br>
+			<a href="lista_cadastros.php" id=b> CADASTRO </a></br>
+			
+			<a href="perdipassword.php" id=b> perdipassword </a></br>
 			<a href="construcao.php" id=c> EM CONSTRUCAO </a></br>
 			<a href="contado.php" id=d> CONTATOS DO SITE </h3></br>
 			<a href="escolha.php" id=e> ESCOLHA ENTRE LOGIN E CADASTRAR </a></br>
 			<a href="esqueceu.php" id=f> ESQUECEU A SENHA </a></br>
-			<a href="exibe_cadastros.php" id=g> EXIBIR CADASTROS </a></br>	
-			
+			<a href="exibe_cadastros.php" id=g> EXIBIR CADASTROS </a></br>				
 			<a href="login.php" id=j> LOGIN </a></br>
 			<a href="perfis editor.php" id=k> ONDE O DONO DO PERFIL VAI EDITAR ELE </a></br>
 			<a href="perfis.php" id=m> EXIBICAO DO PERFIL </a></br>
