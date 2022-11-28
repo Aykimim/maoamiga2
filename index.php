@@ -57,17 +57,16 @@
 		<a href="index.php" id=i> INDEX PRIMEIRA PAGINA </a></br>
 			 <a href="cadastro.php" id=b> CADASTRO </a></br>
 			<a href="construcao.php" id=c> EM CONSTRUCAO </a></br>
-			<a href="contado.html" id=d> CONTATOS DO SITE </h3></br>
-			<a href="escolha.html" id=e> ESCOLHA ENTRE LOGIN E CADASTRAR </a></br>
-			<a href="esqueceu.html" id=f> ESQUECEU A SENHA </a></br>
-			<a href="exibe_cadastros.html" id=g> EXIBIR CADASTROS </a></br>
+			<a href="contado.php" id=d> CONTATOS DO SITE </h3></br>
+			<a href="escolha.php" id=e> ESCOLHA ENTRE LOGIN E CADASTRAR </a></br>
+			<a href="esqueceu.php" id=f> ESQUECEU A SENHA </a></br>
+			<a href="exibe_cadastros.php" id=g> EXIBIR CADASTROS </a></br>	
 			
-			
-			<a href="login.html" id=j> LOGIN </a></br>
-			<a href="perfis editor.html" id=k> ONDE O DONO DO PERFIL VAI EDITAR ELE </a></br>
-			<a href="perfis.html" id=m> EXIBICAO DO PERFIL </a></br>
-			<a href="politica.html" id=n> PAGINA QUE FALA DAS POLITICAS DO SITE </a></br>
-			<a href="sobre.html" id=o> PAGINA QUE FALA SOBRE O SITE </a></br>
+			<a href="login.php" id=j> LOGIN </a></br>
+			<a href="perfis editor.php" id=k> ONDE O DONO DO PERFIL VAI EDITAR ELE </a></br>
+			<a href="perfis.php" id=m> EXIBICAO DO PERFIL </a></br>
+			<a href="politica.php" id=n> PAGINA QUE FALA DAS POLITICAS DO SITE </a></br>
+			<a href="sobre.php" id=o> PAGINA QUE FALA SOBRE O SITE </a></br>
 
 			
 	<!--///////////////////////////////////////////////////////////////////////////////////////-->
