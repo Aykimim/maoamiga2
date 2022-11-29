@@ -32,7 +32,7 @@ require ("conector.php");
 
 <body>
 	<div id="cadastro">
-    	<form name="signup" method="post" action="validarcadastro.php">
+    	<form name="cadastro" method="post" enctype="multipart/form-data" action="validarcadastro.php">
     		<table id="tab_cadastro">
             	<tr>
                 	<td>Nome:</td>
@@ -68,11 +68,12 @@ require ("conector.php");
                 </tr>
                 <tr>    
                     <td>Foto:</td>
-                    <td><input type="text" name="foto" required placeholder="Foto do Funcionário" id="foto" class="txt" /></td>
+                    <td><input type="file" name="foto" required placeholder="Foto do usuario" id="foto" class="txt" /></td>
                 </tr>
+               
                 https://rafaelcouto.com.br/upload-simples-de-imagem-com-php-mysql/
                 <tr>    
-                    <td colspan="2"><input type="submit" value="Cadastrar" name="go" id="botao_cad"></td>
+                    <td colspan="2"><input type="submit" value="Cadastrar" name="cadastrar" id="botao_cad"></td>
                 </tr>
             </table>
         </form>
