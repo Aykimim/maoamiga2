@@ -33,7 +33,7 @@ require ("conector.php");
 <? if(isset($_GET['u'])){<!--Aqui será o código para o caso da variável ter sido indicada-->}
 
 else{$usuario = $_GET['u'];
-	$sql = mysql_query("SELECT * FROM perfis WHERE usuario = '$usuario' ")
+	$sql = mysql_query("SELECT * FROM Anunciante WHERE id_usuario = '$usuario' ")
 	while($linha = mysql_fetch_array($sql)){
 $nome = $linha['nome']; <!--Aqui pegamos o conteúdo do campo NOME de seu banco e deixamos 'salvo' na $nome. Faça isso para todos os campos como foto, descrição, página do facebook ou qualquer outra coisa que queira apresentar na sua página ok.-->
 
@@ -41,6 +41,7 @@ $foto = $linha['foto'];
 
 $usuario = $linha['usuario'];
     }
+	
 	
 	
 	
@@ -65,3 +66,5 @@ echo "<meta HTTP-EQUIV='Refresh' CONTENT='0; URL=index.php'>";
 
 </body>
 </html>
+
+<!--
