@@ -51,11 +51,11 @@ Para entrar em contato preencher o formulario</br>
   value="eykimim@hotmail.com" />
     <div>
         <label for="name">Nome:</label>
-        <input type="text" id="nome" name="usuario_nome"  placeholder="Digite seu nome*" required>
+        <input type="text" id="nome" name="nome"  placeholder="Digite seu nome*" required>
     </div>
     <div>
         <label for="email">E-mail:</label>
-        <input type="email" id="email" name="usuario_email"placeholder="Digite seu E-Mail*" required>
+        <input type="email" id="email" name="email"placeholder="Digite seu E-Mail*" required>
     </div>
    <!-- <div>
         <label for="msg">Telefone:</label>
