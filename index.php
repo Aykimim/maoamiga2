@@ -75,7 +75,7 @@
 
 	
 	<!--/////////////////////////////////////////     cidades       //////////////////////////////////////////////-->
-			<nav><!-- Navegação da página... -->
+			<side><!-- Navegação da página... -->
 			<center>Estado de Minas Gerais</center>
 			
 				<div class="coluna">
@@ -99,7 +99,7 @@
 </html>
 		
 	<?php include 'footer.php'; ?>
-     </nav>
+     
 
 </body>
 </html>

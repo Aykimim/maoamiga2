@@ -27,7 +27,7 @@
 </br>
 <!-- Conteúdo -->
 <body>
-<h1>
+<h5>
 Contato</br>
 
 Autores: Eykimim Aniceto Pereira & YASMIM DUTRA COIMBRA .</br>
@@ -41,13 +41,13 @@ Autores: Eykimim Aniceto Pereira & YASMIM DUTRA COIMBRA .</br>
 			</div>
 
 Para entrar em contato preencher o formulario</br>
-</h1>
+</h5>
 
 
 
 
 
-	<form name="contact" method="post" data-netlify="true">
+	<form action="enviar-email.php" method="post">
 		  <input type="hidden" name="subject" 
   value="eykimim@hotmail.com" />
     <div>
@@ -58,17 +58,17 @@ Para entrar em contato preencher o formulario</br>
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="usuario_email"placeholder="Digite seu E-Mail*" required>
     </div>
-    <div>
+   <!-- <div>
         <label for="msg">Telefone:</label>
         <input type="text" id="telefone"name="usuario_tel"placeholder="Digite seu Telefone"> 
-    </div>
+    </div>-->
     <div>
-        <label for="msg">Escreva uma mensagem:</label>
-        <textarea id="mensagem"name="mensagem"placeholder="Mensagem*" ></textarea>
+        <label for="msg">Escreva sua mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="6" cols="25"></textarea>
     </div>
 
        <input type="submit" value="Enviar">
-		
+       <input type="reset" value="Cancelar">
 
 	</form>
 </body>

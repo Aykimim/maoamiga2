@@ -3,8 +3,8 @@ h1 { color:  black; text-align: center;
 }
 
 /*fonte do texto site*/
-h2 { color: rgb(0, 0, 0); text-align: left;;
-    font-size: 40px;font-style: open sans;
+h2 { color: rgb(0, 0, 0); text-align: left;
+    font-size: 30px;font-style: open sans;
     }
 
 
@@ -14,9 +14,9 @@ h3 { color: rgb(169, 16, 118) ; text-align: center;
   font-size: 10px;   
 }
 
-/*fonte do botoes de atalho provisorio*/
+/*fonte das letras de avisos*/
 h5 { color: rgb(0, 0, 0) ; text-align: center;
-  font-size: 10px;   
+  font-size: 30px;   
 }
 
 
