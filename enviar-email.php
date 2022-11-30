@@ -2,7 +2,7 @@
 $nome= $_POST['nome'];
 $email = $_POST['email'];
 $mensagem= $_POST['mensagem'];
-$formcontent="Mensagem enviada por: $name n Texto: $message";
+$formcontent="Mensagem enviada por: $nome n Texto: $mensagem";
 $recipient = "kimmim@kimmim.shop";
 $subject = "Formulário de contato";
 $mailheader = "De: $email rn";
