@@ -35,13 +35,6 @@
 			
 			<div style='position:absolute; top:40px; right:0px;'>
 			<a href="login.php"class="classe2" > Login &nbsp&nbsp&nbsp&nbsp</a></div>	
-			</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 
 </header>
 </html>

@@ -230,7 +230,7 @@ body{
   /*////////////////////////////////////*/
    /* controla as imagem do portfolio */ 
   .coluna{      
-    float: left;
+    float: right;
     width: 33.33%;
   align-items: center
 

@@ -49,17 +49,17 @@
 	
 	<!--/////////////////////////////////////////     cidades       //////////////////////////////////////////////-->
 			<side><!-- Navegação da página... -->
-			<center>Estado de Minas Gerais</center>
+			<h5><center>Estado de Minas Gerais</center>	</h5>
 			
 				<div class="coluna">
 				
-					<img src="img/manhuacu.png" alt="descrição da imagem" BORDER=5 style="width:100%">
+					<img src="img/manhuacu.png" alt="descrição da imagem"  style="width:100%">
 				</div>
 				<div class="coluna">
-					<img src="img/manhumirim.png" alt="descrição da imagem" BORDER=5 style="width:100%">
+					<img src="img/manhumirim.png" alt="descrição da imagem" style="width:100%">
 				</div>
 				<div class="coluna">
-					<img src="img/simonesia.png" alt="descrição da imagem" BORDER=5 style="width:100%">
+					<img src="img/simonesia.png" alt="descrição da imagem"  style="width:100%">
 				</div>
 			</div>
 			</side>
