@@ -37,7 +37,7 @@
 			
 			<a href="perdipassword.php" id=b> perdipassword </a></br>
 			<a href="construcao.php" id=c> EM CONSTRUCAO </a></br>
-			<a href="contado.php" id=d> CONTATOS DO SITE </h3></br>
+			<a href="contato.php" id=d> CONTATOS DO SITE </h3></br>
 			<a href="escolha.php" id=e> ESCOLHA ENTRE LOGIN E CADASTRAR </a></br>
 			<a href="esqueceu.php" id=f> ESQUECEU A SENHA </a></br>
 			<a href="exibe_cadastros.php" id=g> EXIBIR CADASTROS </a></br>				
