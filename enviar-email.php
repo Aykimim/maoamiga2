@@ -2,9 +2,9 @@
 $nome= $_POST['nome'];
 $email = $_POST['email'];
 $mensagem= $_POST['mensagem'];
-$formcontent="Mensagem enviada por: $nome , Texto: $mensagem";
+$formcontent="Mensagem enviada por: $nome \n Reclamação: $mensagem \n De: $email";
 $recipient = "kimmim@kimmim.shop";
-$subject = "Formulário de contato";
+$subject = "Reclamação do mao amiga";
 $mailheader = "De: $email";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Erro!");
 echo "Obrigado por entrar em contato!";
