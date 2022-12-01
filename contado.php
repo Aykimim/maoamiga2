@@ -20,13 +20,7 @@
 		
 		<?php include 'header.php'; ?>
 		<html>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+
 <!-- Conteúdo -->
 <body>
 <h5>
@@ -46,7 +40,7 @@ Para entrar em contato preencher o formulario</br>
 </h5>
 
 
-	<form action="enviar-email.php" method="post">
+	<form method="post" action="#" >
 		  <input type="hidden" name="subject" 
   value="eykimim@hotmail.com" />
     <div>
@@ -71,6 +65,24 @@ Para entrar em contato preencher o formulario</br>
 
 	</form>
 </body>
+<?php
+$nome= $_POST['nome'];
+$email = $_POST['email'];
+$mensagem= $_POST['mensagem'];
+$formcontent="De: $email \nMensagem enviada por: $nome \nReclamação: $mensagem ";
+$recipient = "kimmim@kimmim.shop";
+$subject = "Reclamação do mao amiga";
+$mailheader = "De: $email";
+mail($recipient, $subject, $formcontent, $mailheader) or die("Erro!");
+
+function_alert("Mensagem enviada com sucesso");
+
+function function_alert($msg) {
+    echo "<script type='text/javascript'>alert('$msg');</script>";
+}
+
+?>
+
 
 
 

@@ -9,22 +9,14 @@
 
 	</style>
 	<link href='style.css' rel='stylesheet' type='text/css' />
+	<link rel="shortcut icon" href="/img/favicon-16x16.png">
 </head>
 <body>
-
-
-     <nav>
-		
-		<?php include 'header.php'; ?>
-		<html>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+<?php include 'header.php'; ?>
 <!-- Conteúdo -->
+<html>
+
+
 
 
 

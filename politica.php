@@ -11,13 +11,6 @@
 		
 		<?php include 'header.php'; ?>
 		<html>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 <!-- Conteúdo -->
 <h1>Aviso do site ao (a) visitante:</br></br>
 

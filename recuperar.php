@@ -1,11 +1,12 @@
 <h1>Alterar password</h1>
-<?php
+ <?php
+    require ("conector.php");
+    ?>
+    <?php
   if( empty($_GET['utilizador']) || empty($_GET['confirmacao']) )
     die('<p>Não é possível alterar a password: dados em falta</p>');
  
-    <?php
-    require ("conector.php");
-    ?>
+   
  
   $user = mysql_real_escape_string($_GET['utilizador']);
   $hash = mysql_real_escape_string($_GET['confirmacao']);

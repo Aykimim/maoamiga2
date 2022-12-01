@@ -24,13 +24,13 @@
 				
 				<div style='position:absolute;'>
 				
-				<a href="sobre.html" class="classe1" id=bota1pos> 
+				<a href="sobre.php" class="classe1" id=bota1pos> 
 					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 					Sobre &nbsp&nbsp&nbsp </a>
-				<a href="contato.html" class="classe1"id=bota3pos> Contato  &nbsp&nbsp&nbsp</a>
-				<a href="politica.html" class="classe1"id=bota2pos> Politica de Priprivacidade  &nbsp&nbsp&nbsp</a>
-				<a href="cadastro.html" class="classe1"id=bota3pos> Anunciar  &nbsp&nbsp&nbsp</a>	
+				<a href="contato.php" class="classe1"id=bota3pos> Contato  &nbsp&nbsp&nbsp</a>
+				<a href="politica.php" class="classe1"id=bota2pos> Politica de Priprivacidade  &nbsp&nbsp&nbsp</a>
+				<a href="cadastro.php" class="classe1"id=bota3pos> Anunciar  &nbsp&nbsp&nbsp</a>	
 		  
 				</div>
 

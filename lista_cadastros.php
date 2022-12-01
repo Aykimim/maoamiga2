@@ -17,13 +17,6 @@
 		
 		<?php include 'header.php'; ?>
 		<html>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 <!-- Conteúdo -->
 <?php
 require ("conector.php");

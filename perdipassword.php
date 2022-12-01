@@ -17,22 +17,17 @@
 		
 		<?php include 'header.php'; ?>
 		<html>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+
 <!-- Conteúdo -->
 
 <h1>Perdi a password</h1>
 <?php
-  if( !empty($_POST) ){
-    // processar o pedido
-    <?php
     require ("conector.php");
     ?>
+<?php
+  if( !empty($_POST) ){
+    // processar o pedido
+    
 
  
     $user = mysql_real_escape_string($_POST['email']);

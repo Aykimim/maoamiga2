@@ -17,13 +17,6 @@
 		
 		<?php include 'header.php'; ?>
 		<html>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 <!-- Conteúdo 
 https://pt.stackoverflow.com/questions/173795/como-criar-p%C3%A1gina-para-cada-usu%C3%A1rio-com-php-->
 <?php

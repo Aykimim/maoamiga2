@@ -1,3 +1,6 @@
+/*alerta confirmacao de envio de mensagen do contato*/
+<script type='text/javascript'>alert('Mensagem enviada com sucesso');</script>
+
 /*////////////////////logo que cai\\\\\\\\\\\\\\
 const flags = {
     rightOrigin: {
