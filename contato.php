@@ -13,18 +13,14 @@
 	</style>
 	<link href='style.css' rel='stylesheet' type='text/css' />
 </head>
-<body>
 
 
-     <nav>
-		
-		<?php include 'header.php'; ?>
-		<html>
-
+<?php include 'header.php'; ?>
 <!-- Conteúdo -->
-<body>
+<html>
+
 <h5>
-Contato</br>
+    Contato</br>
 
 Autores: Eykimim Aniceto Pereira & YASMIM DUTRA COIMBRA .</br>
 <div class="coluna">
@@ -84,13 +80,6 @@ function function_alert($msg) {
 ?>
 
 
-
-
-		
 </html>
-		
-	<?php include 'footer.php'; ?>
-     </nav>
-
-</body>
-</html>
+<!-- fim Conteúdo -->	
+<?php include 'footer.php'; ?>

@@ -1,24 +1,8 @@
-<!-- Olá, Eykimim -->
-<!--///////////////////////////////////////////diretriz/////////////////////////////////////////////////-->
-<!DOCTYPE HTML>
-<html lang="pt-br">
-<head>
-     <meta charset="utf-8">
-     <title>Mão amiga</title>
-	 <style rel='stylesheet' type='text/css'>
+<?php include 'header.php'; ?>
+<!-- Conteúdo -->
+<html>
 
-	</style>
-	<link href='style.css' rel='stylesheet' type='text/css' />
-</head>
-<body>
-
-
-     <nav>
-		
-		<?php include 'header.php'; ?>
-		<html>
-<!-- Conteúdo 
-https://pt.stackoverflow.com/questions/173795/como-criar-p%C3%A1gina-para-cada-usu%C3%A1rio-com-php-->
+<!-- https://pt.stackoverflow.com/questions/173795/como-criar-p%C3%A1gina-para-cada-usu%C3%A1rio-com-php-->
 <?php
 require ("conector.php");
 ?>
@@ -50,14 +34,7 @@ echo "<meta HTTP-EQUIV='Refresh' CONTENT='0; URL=index.php'>";
 <!--//////////////////mostra o conteudo na pagina////////////////////-->
 <img src="<? echo $foto; ?>" width="100"/>
 
-
 		
 </html>
-		
-	<?php include 'footer.php'; ?>
-     </nav>
-
-</body>
-</html>
-
-<!--
+<!-- fim Conteúdo -->	
+<?php include 'footer.php'; ?>

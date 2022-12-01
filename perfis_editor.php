@@ -1,23 +1,8 @@
-<!-- Olá, Eykimim -->
-<!--///////////////////////////////////////////diretriz/////////////////////////////////////////////////-->
-<!DOCTYPE HTML>
-<html lang="pt-br">
-<head>
-     <meta charset="utf-8">
-     <title>Mão amiga</title>
-	 <style rel='stylesheet' type='text/css'>
-
-	</style>
-	<link href='style.css' rel='stylesheet' type='text/css' />
-</head>
-<body>
-
-
-     <nav>
-		
-		<?php include 'header.php'; ?>
-		<html>
+<?php include 'header.php'; ?>
 <!-- Conteúdo -->
+<html>
+
+
 
 <?php
 // ID de exemplo
@@ -30,13 +15,7 @@ $sql = mysql_query("DELETE FROM Anunciante WHERE id = '".$id."'");
 // Removendo imagem da pasta fotos/
 unlink("fotosperfis/".$usuario->foto."");
 ?>
-
-
 		
 </html>
-		
-	<?php include 'footer.php'; ?>
-     </nav>
-
-</body>
-</html>
+<!-- fim Conteúdo -->	
+<?php include 'footer.php'; ?>

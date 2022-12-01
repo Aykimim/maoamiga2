@@ -11,7 +11,7 @@
 	<link href='style.css' rel='stylesheet' type='text/css' />
 	<link rel="icon" type="imagem/png" href="/img/favicon-16x16.png">
 </head>
-<body>
+
 <?php include 'header.php'; ?>
 <!-- Conteúdo -->
 <html>
@@ -23,8 +23,7 @@
 
 		
 </html>
-<!-- fim Conteúdo -->
-</body>		
+<!-- fim Conteúdo -->	
 <?php include 'footer.php'; ?>
 
 

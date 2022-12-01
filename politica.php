@@ -1,18 +1,8 @@
-<!DOCTYPE HTML>
-<html lang="pt-br">
-<head>
-     <meta charset="utf-8">
-     <title>Menu em arquivo externo</title>
-</head>
-<body>
-
-
-     <nav>
-		
-		<?php include 'header.php'; ?>
-		<html>
+<?php include 'header.php'; ?>
 <!-- Conteúdo -->
-<h1>Aviso do site ao (a) visitante:</br></br>
+<html>
+
+<h5>Aviso do site ao (a) visitante:</br></br>
 
 Ao ligar, informe que viu o profissional(a) no site Mão Amiga . Eles querem saber! 
 </br>
@@ -24,15 +14,8 @@ Somente faça o contato via WhatsApp se o intuito for de realmente sair com o an
 </br>
 assim, desocupados com interesse em apenas puxar conversa, serão bloqueados.
 </br>
-</h1>
+</h5>
 
-
-
-		
 </html>
-		
-	<?php include 'footer.php'; ?>
-     </nav>
-
-</body>
-</html>
+<!-- fim Conteúdo -->
+<?php include 'footer.php'; ?>

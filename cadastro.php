@@ -1,30 +1,11 @@
-<!-- Olá, Eykimim -->
-<!--///////////////////////////////////////////diretriz/////////////////////////////////////////////////-->
-<!DOCTYPE HTML>
-<html lang="pt-br">
-<head>
-     <meta charset="utf-8">
-     <title>Mão amiga</title>
-	 <style rel='stylesheet' type='text/css'>
-
-	</style>
-	<link href='style.css' rel='stylesheet' type='text/css' />
-</head>
-<body>
-
-
-     <nav>
-		
-		<?php include 'header.php'; ?>
-		<html>
-
+<?php include 'header.php'; ?>
 <!-- Conteúdo -->
+<html>
 
 <?php
 require ("conector.php");
 ?>
 
-<body>
 	<div id="cadastro">
     	<form name="cadastro" method="post" enctype="multipart/form-data" action="validarcadastro.php">
     		<table id="tab_cadastro">
@@ -72,12 +53,7 @@ require ("conector.php");
             </table>
         </form>
     </div>
-</body>
-
+	
 </html>
-		
-	<?php include 'footer.php'; ?>
-     </nav>
-
-</body>
-</html>
+<!-- fim Conteúdo -->		
+<?php include 'footer.php'; ?>

@@ -1,9 +1,6 @@
-		<?php include 'header.php'; ?>
-		<html>
-<nav>
+<?php include 'header.php'; ?>
 <!-- Conteúdo -->
-
-
+<html>
 
 		<!--/////////////////////////////////////////meio//////////////////////////////////////////////-->
 
@@ -33,8 +30,7 @@
 		    <a href="base.php" id=a> CODIGO BASE </a></br>
 		    <a href="index.php" id=i> INDEX PRIMEIRA PAGINA </a></br>
 			<a href="cadastro.php" id=b> CADASTRO </a></br>
-			<a href="lista_cadastros.php" id=b> CADASTRO </a></br>
-			
+			<a href="lista_cadastros.php" id=b> CADASTRO </a></br>			
 			<a href="perdipassword.php" id=b> perdipassword </a></br>
 			<a href="construcao.php" id=c> EM CONSTRUCAO </a></br>
 			<a href="contato.php" id=d> CONTATOS DO SITE </h3></br>
@@ -74,9 +70,5 @@
 
 <!--//////////////////////////////////////////  roda pe  /////////////////////////////////////////////-->
 </html>
-		
-	<?php include 'footer.php'; ?>
-     
-
-</body>
-</html>
+<!-- fim Conteúdo -->
+<?php include 'footer.php'; ?>
