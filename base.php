@@ -9,7 +9,7 @@
 
 	</style>
 	<link href='style.css' rel='stylesheet' type='text/css' />
-	<link rel="shortcut icon" href="/img/favicon-16x16.png">
+	<link rel="icon" type="imagem/png" href="/img/favicon-16x16.png">
 </head>
 <body>
 <?php include 'header.php'; ?>
@@ -23,9 +23,9 @@
 
 		
 </html>
-		
-	<?php include 'footer.php'; ?>
-     </nav>
+<!-- fim Conteúdo -->
+</body>		
+<?php include 'footer.php'; ?>
 
-</body>
-</html>
+
+

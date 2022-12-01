@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html lang='pt-BR'>
-<!-- Olá, Eykimim -->
-<!--///////////////////////////////////////////diretriz/////////////////////////////////////////////////-->
-
-<head>
-	<meta charset='UTF-8' />
-	<title>Mão amiga</title>
-	<style rel='stylesheet' type='text/css'>
-
-	</style>
-	<link href='style.css' rel='stylesheet' type='text/css' />
-
-<body style=" background-color : white;">
-	</head>
-
-	<!--///////////////////////////////////////////////////////////////////////////////////////-->
-
-			<!--/////////////////////////////////////////     roda pe      //////////////////////////////////////////////-->
-			<footer>
+<!--/////////////////////////////////////////     roda pe      //////////////////////////////////////////////-->
+<html>			
+<footer>
 				<!-- Rodapé -->
 				<div style='position:absolute; top:0px; left:0px;'>
 					<img src="img/51291.png"height="1000" width="3000" alt="img" id="barrapos" /></div>
