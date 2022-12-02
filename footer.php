@@ -1,24 +1,30 @@
 <!--/////////////////////////////////////////     roda pe      //////////////////////////////////////////////-->
-<html>			
-<footer>
-				<!-- Rodapé -->
-				<div style='position:absolute; top:0px; left:0px;'>
-					<img src="img/51291.png"height="90" width="3000" alt="img" id="barrapos" /></div>
-				
-				<!--  <div style='position:absolute;'>-->
-				
-				<a href="sobre.php" class="classe1" id=bota1pos> 
-					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-					Sobre &nbsp&nbsp&nbsp </a>
-				<a href="contato.php" class="classe1"id=bota3pos> Contato  &nbsp&nbsp&nbsp</a>
-				<a href="politica.php" class="classe1"id=bota2pos> Politica de Priprivacidade  &nbsp&nbsp&nbsp</a>
-				<a href="cadastro.php" class="classe1"id=bota3pos> Anunciar  &nbsp&nbsp&nbsp</a>	
-		  
-				</div>
 
-			</footer>
 <!--///////////////////////////////////////////////////////////////////////////////////////-->
-	</body>
 
+    <footer>
+        <div class="footer-content">
+            <h3>Mão amiga</h3>
+            <p>Yasmim feia</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/yasmim.dutra.9699?mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://mobile.twitter.com/eykimim18"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://br.linkedin.com/in/eykimim-pereira-4763841a2?trk=public_profile_samename-profile"><i class="fa fa-linkedin-square"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/yasmim-dutra-57747218b"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="sobre.php">Sobre</a></li>
+                        <li><a href="contato.php">Contato</a></li>
+                        <li><a href="politica.php">Politica</a></li>
+						<li><a href="cadastro.php">Anunciar</a></li>
+                      </ul>
+                    </div>
+        </div>
+
+    </footer>
+</body>
 </html>
