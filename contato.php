@@ -38,10 +38,10 @@ Para entrar em contato preencher o formulario</br>
     </div>-->
     <div>
         <label for="msg">Escreva sua mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="6" cols="20"></textarea>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="20"></textarea>
     </div>
 
-       <input type="submit" value="Enviar" name="botao">
+       <input type="submit" value="Enviar">
        <input type="reset" value="Cancelar">
 
 	</form>
