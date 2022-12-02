@@ -1,7 +1,8 @@
 <!--/////////////////////////////////////////     roda pe      //////////////////////////////////////////////-->
 
 <!--///////////////////////////////////////////////////////////////////////////////////////-->
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style media="screen">
     <footer>
         <div class="footer-content">
             <h3>Mão amiga</h3>
@@ -27,4 +28,5 @@
 
     </footer>
 </body>
-</html>
+</html>   
+ </style>
