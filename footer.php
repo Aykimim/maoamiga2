@@ -3,9 +3,9 @@
 <footer>
 				<!-- Rodapé -->
 				<div style='position:absolute; top:0px; left:0px;'>
-					<img src="img/51291.png"height="1000" width="3000" alt="img" id="barrapos" /></div>
+					<img src="img/51291.png"height="90" width="3000" alt="img" id="barrapos" /></div>
 				
-				<div style='position:absolute;'>
+				<!--  <div style='position:absolute;'>-->
 				
 				<a href="sobre.php" class="classe1" id=bota1pos> 
 					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp

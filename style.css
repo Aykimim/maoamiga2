@@ -213,11 +213,11 @@ body{
   
   footer{
     display:block;
-    position:fixed;
+   /* position:fixed;*/
     width:100%;
     bottom:0vh;
     left:0;
-    background:white;
+    /*background:white;*/
     text-align:center;
     padding: 20px 0;
     
