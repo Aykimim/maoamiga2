@@ -232,15 +232,17 @@ body{
   .coluna{      
     float: right;
     width: 33.33%;
-  align-items: center
-
-    ;
-
+  text-align:center;
+  padding: 20px 0px 0px 0px;
   
 }
   
   /*////////////////////////////////////////*/
-
+  .contato {
+    /* display:inline-block; */
+    text-align:center;
+    padding: 20px 0px 0px 0px;
+}
 
     /*//////////////////cadastos//////////////////////*/
   body{
