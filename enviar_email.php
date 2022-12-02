@@ -2,9 +2,6 @@
 <!-- Conteúdo -->
 <html>
 <?php
-    if (isset($_POST[“botao”]))
-{
-echo “botão foi clicado”;
 
 
 $nome= $_POST['nome'];
@@ -21,15 +18,9 @@ function_alert("Mensagem enviada com sucesso");
 function function_alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
 }
- 
-}
 ?>  
 
 
-
-
-
-		
 </html>
 <!-- fim Conteúdo -->	
 <?php include 'footer.php'; ?>

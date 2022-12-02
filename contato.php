@@ -11,9 +11,9 @@
 Autores: Eykimim Aniceto Pereira & YASMIM DUTRA COIMBRA .</br>
 <div class="contato">
 				
-					<img src="img/eykimim.jpg" alt="descrição da imagem" height="42" width="42" vspace="5" hspace="5">
+					<img src="img/eykimim.jpg" alt="descrição da imagem" height="100" width="100" vspace="5" hspace="5">
 				
-					<img src="img/yasmim.jpg" alt="descrição da imagem" height="42" width="42" vspace="5" hspace="5">
+					<img src="img/yasmim.jpg" alt="descrição da imagem" height="100" width="100" vspace="5" hspace="5">
 				
 			</div>
 
