@@ -2,9 +2,9 @@ h1 { color:  rgb(0, 0, 0); text-align: center;
     font-size: 20px;
 }
 
-/*fonte do texto site*/
+/*fonte do texto grande do site*/
 h2 { color: rgb(0, 0, 0); text-align: left;
-    font-size: 20px;font-style: open sans;
+    font-size: 30px;font-style: open sans;
     }
 
 /*fonte do botoes de atalho provisorio*/
@@ -201,7 +201,7 @@ body{
   font-family: sans-serif;
 }
 footer{
-  /*position: absolute;*/
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;

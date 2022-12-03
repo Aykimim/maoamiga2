@@ -51,16 +51,14 @@
 			<side><!-- Navegação da página... -->
 			<h5><center>Estado de Minas Gerais</center>	</h5>
 			
-				<div class="coluna">
+				<div class="contato">
 				
-					<img src="img/manhuacu.png" alt="descrição da imagem"  style="width:100%">
-				</div>
-				<div class="coluna">
-					<img src="img/manhumirim.png" alt="descrição da imagem" style="width:100%">
-				</div>
-				<div class="coluna">
-					<img src="img/simonesia.png" alt="descrição da imagem"  style="width:100%">
-				</div>
+					<img src="img/manhuacu.png" alt="descrição da imagem"  height="200" width="200" vspace="5" hspace="4">
+				
+					<img src="img/manhumirim.png" alt="descrição da imagem" height="200" width="200" vspace="5" hspace="4">
+				
+					<img src="img/simonesia.png" alt="descrição da imagem"  height="200" width="200" vspace="5" hspace="4">
+				
 			</div>
 			</side>
 </nav>
