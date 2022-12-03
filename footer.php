@@ -1,6 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+     <meta charset="utf-8">
+     <title>Mão amiga</title>
+	 <style rel='stylesheet' type='text/css'>
+
+	</style>
+	<link href='rodape.css' rel='stylesheet' type='text/css' />
+	<link rel="icon" type="imagem/png" href="/img/favicon-16x16.png">
+	<body style=" background-color : white;">
+</head>
+
 <!--/////////////////////////////////////////     roda pe      //////////////////////////////////////////////-->
 
-<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <footer>
@@ -30,3 +43,4 @@
 </body>
 </html>   
  </style>
+ <!--///////////////////////////////////////////////////////////////////////////////////////-->
