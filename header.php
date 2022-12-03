@@ -27,7 +27,7 @@
 			
 			<div style='position:absolute; top:-80px; left:0px;'>
 			<a href="index.php" >
-			<img src="img/logo sem fundo.png"height="250" width="250" alt="img" id="imgpos" /></div>
+			<img src="img/logo sem fundo.png"height="250" width="250" alt="img" id="imgpos" vspace="1" hspace="1" /></div>
 			</a>	
 
 			<div style='position:absolute; top:40px; right:0px;'>
