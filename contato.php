@@ -11,9 +11,9 @@
 Autores: Eykimim Aniceto Pereira & YASMIM DUTRA COIMBRA .</br>
 <div class="contato">
 				
-					<img src="img/eykimim.jpg" alt="descrição da imagem" height="100" width="100" vspace="5" hspace="5">
+					<img src="img/eykimim.jpg" alt="descrição da imagem" height="200" width="200" vspace="5" hspace="4">
 				
-					<img src="img/yasmim.jpg" alt="descrição da imagem" height="100" width="100" vspace="5" hspace="5">
+					<img src="img/yasmim.jpg" alt="descrição da imagem" height="200" width="200" vspace="5" hspace="4">
 				
 			</div>
 
@@ -30,7 +30,7 @@ Para entrar em contato preencher o formulario</br>
         <input type="text" name="nome"  placeholder="Digite seu nome:" required>
  
    
-        <label for="email"><span>E-mail:</label>
+        <label for="email"><span>E-mail:</span></label>
         <input type="text" name="email"placeholder="Digite seu E-Mail:" class="fade_8S" required>
  
 
@@ -40,19 +40,13 @@ Para entrar em contato preencher o formulario</br>
     </div>-->
 
 
-        <label for="msg"><span>Escreva sua mensagem:</label>
+        <label for="msg"><span>Escreva sua mensagem:</span></label>
         <textarea id="mensagem" name="mensagem" rows="3" ></textarea>
 
 
        <input type="submit" name="acao" value="Enviar">
        <input type="reset" value="Cancelar">
 
-	</form>
-
-    <input type="hidden"  value="enviar" />
-            <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
-
-        
             </form>
     </div>
     
@@ -61,26 +55,3 @@ Para entrar em contato preencher o formulario</br>
 </html>
 <!-- fim Conteúdo -->	
 <?php include 'footer.php'; ?>
-
-<div class="formularioContato">
-        
-        <form action="#" method="post" enctype="multipart/form-data">
-
-           
-            
-            
-
-            <label>
-                <span><i class="icon icon-flag"></i> Assunto</span>
-                <input type="text" name="assunto" required="">
-            </label>
-            
-            
-           
-            <input type="hidden" name="acao" value="enviar" />
-            <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
-
-        
-        </form>
-
-    </div><!--Formulario Contato-->
