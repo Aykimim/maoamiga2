@@ -4,7 +4,7 @@ h1 { color:  rgb(0, 0, 0); text-align: center;
 
 /*fonte do texto site*/
 h2 { color: rgb(0, 0, 0); text-align: left;
-    font-size: 30px;font-style: open sans;
+    font-size: 20px;font-style: open sans;
     }
 
 /*fonte do botoes de atalho provisorio*/
@@ -14,7 +14,7 @@ h4 { color: rgb(169, 16, 118) ; text-align: center;
 
 /*fonte das letras de avisos*/
 h5 { color: rgb(0, 0, 0) ; text-align: center;
-  font-size: 30px;   
+  font-size: 20px;   
 }
 
 

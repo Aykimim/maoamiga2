@@ -19,3 +19,21 @@ unlink("fotosperfis/".$usuario->foto."");
 </html>
 <!-- fim Conteúdo -->	
 <?php include 'footer.php'; ?>
+
+
+
+<!--deleta foto-->
+<? 
+   include ("conexao.php");
+   $acao     = $_REQUEST['acao'];   
+   $id_foto  = $_REQUEST['id-foto'];
+ 
+   if (isset($acao) && $acao == 'excluir-foto' ){
+      $del_foto = "DELETE FROM fotos WHERE id_fotos = '$id_foto'";
+      $sucesso = mysql_query($del_foto);
+ 
+      if ($sucesso){
+         header("Location: ".$_SERVER['HTTP_REFERER']."");
+      }else
+         die (mysql_error());
+?>
