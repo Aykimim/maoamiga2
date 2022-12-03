@@ -2,11 +2,11 @@
 
 <!--///////////////////////////////////////////////////////////////////////////////////////-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style media="screen">
+    
     <footer>
         <div class="footer-content">
-            <h3>Mão amiga</h3>
-            <p>Yasmim feia</p>
+            <h3></h3>
+            <p>Mão amiga</p>
             <ul class="socials">
                 <li><a href="https://www.facebook.com/yasmim.dutra.9699?mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://mobile.twitter.com/eykimim18"><i class="fa fa-twitter"></i></a></li>
