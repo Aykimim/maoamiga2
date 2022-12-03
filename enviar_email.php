@@ -18,6 +18,7 @@ function_alert("Mensagem enviada com sucesso");
 function function_alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
 }
+header("Location: ".$_SERVER['HTTP_REFERER']."");
 ?>  
 
 
