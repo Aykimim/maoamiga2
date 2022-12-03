@@ -20,33 +20,67 @@ Autores: Eykimim Aniceto Pereira & YASMIM DUTRA COIMBRA .</br>
 Para entrar em contato preencher o formulario</br>
 </h5>
 
+<div class="formularioContato">
 
-	<form method="post" action="enviar_email.php" >
-		  <input type="hidden" name="subject" 
-  value="eykimim@hotmail.com" />
-    <div>
-        <label for="name">Nome:</label>
-        <input type="text" id="nome" name="nome"  placeholder="Digite seu nome*" required>
-    </div>
-    <div>
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email"placeholder="Digite seu E-Mail*" required>
-    </div>
+	<form method="post" action="enviar_email.php" enctype="multipart/form-data" >
+
+		<input type="hidden" name="subject"  value="eykimim@hotmail.com" />
+
+        <label for="name"><span>Nome:</span></label>
+        <input type="text" name="nome"  placeholder="Digite seu nome:" required>
+ 
+   
+        <label for="email"><span>E-mail:</label>
+        <input type="text" name="email"placeholder="Digite seu E-Mail:" class="fade_8S" required>
+ 
+
    <!-- <div>
         <label for="msg">Telefone:</label>
         <input type="text" id="telefone"name="usuario_tel"placeholder="Digite seu Telefone"> 
     </div>-->
-    <div>
-        <label for="msg">Escreva sua mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5" cols="20"></textarea>
-    </div>
 
-       <input type="submit" value="Enviar">
+
+        <label for="msg"><span>Escreva sua mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="3" ></textarea>
+
+
+       <input type="submit" name="acao" value="Enviar">
        <input type="reset" value="Cancelar">
 
 	</form>
+
+    <input type="hidden"  value="enviar" />
+            <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+
+        
+            </form>
+    </div>
+    
 
 
 </html>
 <!-- fim Conteúdo -->	
 <?php include 'footer.php'; ?>
+
+<div class="formularioContato">
+        
+        <form action="#" method="post" enctype="multipart/form-data">
+
+           
+            
+            
+
+            <label>
+                <span><i class="icon icon-flag"></i> Assunto</span>
+                <input type="text" name="assunto" required="">
+            </label>
+            
+            
+           
+            <input type="hidden" name="acao" value="enviar" />
+            <button class="btn-envia" title="Enviar"><b class="icon icon-paper-plane-o"> Enviar</b></button>
+
+        
+        </form>
+
+    </div><!--Formulario Contato-->
