@@ -168,26 +168,7 @@ body {
     margin: 8px;
 }
 ////////////////////////////////////*/
-/*//////////////////////////////cabecario/////////////////////*/
 
-
-
-/*body{
-    min-height:1000px;
-    background:gray;
-    font-family:Arial;
-  }*/
-  
-  header{
-    display:block;
-  /*  position:fixed;*/
-    top:0;
-    left:0;
-    width:100%;
-   /* background:white;*/
-    text-align:center;
-    padding: 20px 0;
-  }
   
  
   
