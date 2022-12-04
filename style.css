@@ -1,5 +1,5 @@
 h1 { color:  rgb(0, 0, 0); text-align: center;
-    font-size: 20px;
+    font-size: 20px;font-style: open sans;
 }
 
 /*fonte do texto grande do site*/
@@ -9,12 +9,12 @@ h2 { color: rgb(0, 0, 0); text-align: left;
 
 /*fonte do botoes de atalho provisorio*/
 h4 { color: rgb(169, 16, 118) ; text-align: center;
-  font-size: 10px;   
+  font-size: 10px;  font-style: open sans; 
 }
 
 /*fonte das letras de avisos*/
 h5 { color: rgb(0, 0, 0) ; text-align: center;
-  font-size: 20px;   
+  font-size: 20px; font-style: open sans;  
 }
 
 
@@ -168,12 +168,6 @@ body {
     margin: 8px;
 }
 ////////////////////////////////////*/
-
-  
- 
-  
-  
- 
  
    /* controla as imagem do portfolio */ 
   .coluna{      
@@ -301,12 +295,12 @@ body {
 }
 
     /*//////////////////cadastos//////////////////////*/
-  body{
+ /* body{
     margin: 0;
     padding: 0;
     outline: none;
     font-family: "Arial";
-  }
+  }*/
   
   .txt{
     height: 35px;
