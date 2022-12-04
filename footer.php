@@ -19,7 +19,7 @@
     <footer>
         <div class="footer-content">
             <h3></h3>
-            <p>M達o amiga</p>
+            <p>Mao amiga</p>
             <ul class="socials">
                 <li><a href="https://www.facebook.com/yasmim.dutra.9699?mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://mobile.twitter.com/eykimim18"><i class="fa fa-twitter"></i></a></li>
