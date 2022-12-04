@@ -15,9 +15,9 @@
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <div class="footer-content">
     <footer>
-        <div class="footer-content">
+        
             <h3></h3>
             <p>Mão amiga</p>
             <ul class="socials">

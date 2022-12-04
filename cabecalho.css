@@ -5,11 +5,15 @@
     background:gray;
     font-family:Arial;
   }*/
-  
+  header *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }*
   header{
     display:block;
   /*position:fixed;*/
-    position: absolute;
+    /*position: absolute;*/
     top:0;
     left:0;
     width:100%;
