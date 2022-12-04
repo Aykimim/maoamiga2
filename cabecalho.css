@@ -5,15 +5,11 @@
     background:gray;
     font-family:Arial;
   }*/
-  header *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }*
+
   header{
     display:block;
   /*position:fixed;*/
-    /*position: absolute;*/
+    position: absolute;
     top:0;
     left:0;
     width:100%;
@@ -28,7 +24,12 @@
   bottom: 0;
   left: 0;
   right: 0;*/
-  
+    .logo{
+    width: 100vw;
+    padding: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    }
 
   .header-preto{
     background: #000;
@@ -37,4 +38,3 @@
     padding-bottom: 40px;
     text-align: center;
     }
- 

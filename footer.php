@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
      <meta charset="utf-8">
-     <title>Mão amiga</title>
+     <title>M達o amiga</title>
 	 <style rel='stylesheet' type='text/css'>
 
 	</style>
@@ -15,11 +15,11 @@
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="footer-content">
+    
     <footer>
-        
+        <div class="footer-content">
             <h3></h3>
-            <p>Mão amiga</p>
+            <p>M達o amiga</p>
             <ul class="socials">
                 <li><a href="https://www.facebook.com/yasmim.dutra.9699?mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://mobile.twitter.com/eykimim18"><i class="fa fa-twitter"></i></a></li>
