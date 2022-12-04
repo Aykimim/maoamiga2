@@ -1,29 +1,67 @@
 <?php include 'header.php'; ?>
 <!-- Conteúdo -->
-<html>
 
+ <!-- Carregar as sessões para a memória... -->
+ <?php
+include('conector.php');
 
+if(isset($_POST['email']) || isset($_POST['senha'])) {
 
-<!--/////////////////////////////////////////  Carregar as sessões para a memória... ////////////////////////////-->
-<!--https://blog.dankicode.com/como-criar-um-sistema-de-cadastro-com-php-e-mysql/
+    if(strlen($_POST['email']) == 0) {
+        echo "Preencha seu e-mail";
+    } else if(strlen($_POST['senha']) == 0) {
+        echo "Preencha sua senha";
+    } else {
 
-https://pt.stackoverflow.com/questions/175622/criar-p%C3%A1gina-de-perfil-de-acordo-com-o-usu%C3%A1rio-->
+        $email = $mysqli->real_escape_string($_POST['email']);
+        $senha = $mysqli->real_escape_string($_POST['senha']);
 
+        $sql_code = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
+        $sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL: " . $mysqli->error);
 
-<form method="post" action="validarlogin.php" id="formlogin" name="formlogin" >
-	<fieldset id="fie">
-	<h1>LOGIN</h1><br />
-	<label>Nome : </label>
-	<input type="text" name="usuario" id="usuario"  /><br />
-	<label>Senha :</label>
-	<input type="password" name="senha" id="senha" /><br />
-	<input type="submit" value="LOGAR  "  />
-	</fieldset>
-	</form>
+        $quantidade = $sql_query->num_rows;
+
+        if($quantidade == 1) {
+            
+            $usuario = $sql_query->fetch_assoc();
+
+            if(!isset($_SESSION)) {
+                session_start();
+            }
+
+            $_SESSION['id'] = $usuario['id'];
+           // $_SESSION['nome'] = $usuario['nome'];
+
+            header("Location: index.php");
+
+        } else {
+            echo "Falha ao logar! E-mail ou senha incorretos";
+        }
+
+    }
+
+}
+?>
+ 
+ <!-- formulario -->
+ <html>	
+<body>
+	<h1>LOGIN</h1></br>
+    <form action="" method="post">
 	
+
+	    <label>Email : </label>
+	    <input type="text" name="usuario" id="usuario"  /><br />
 	
-	<!--///////////////////////////////////////////////////////////////////////////////////////-->
-		
-</html>
-<!-- fim Conteúdo -->	
+	    <label>Senha :</label>
+     	<input type="password" name="senha" id="senha" /><br />
+	
+	     <button type="submit">Entrar</button>
+
+
+    </form>
+	
+</body>
+ <html>	
+<!--fim Conteúdo -->
 <?php include 'footer.php'; ?>
