@@ -12,7 +12,25 @@
     top:0;
     left:0;
     width:100%;
-   /* background:white;*/
+    background:#03989e;
     text-align:center;
     padding: 20px 0;
+height: auto;
+  width: 100vw;
   }
+  /*position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+ 
+  
+  padding-top: 1px;
+
+  .header-preto{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    }
+ 

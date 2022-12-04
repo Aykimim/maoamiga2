@@ -19,12 +19,7 @@
 	
 		<header>
 			
-			<div style='position:absolute; top:0px; left:0px;'>
-			<img src="img/51291.png"height="90" width="3000" alt="img" id="barrapos" /></div>
-			
-			<div style='position:absolute; top:0px; left:0px;'></div>
-			<img src="img/03989e.jpg"height="95" width="3000" alt="img" id="barrapos" /></div>
-			
+
 			<div style='position:absolute; top:-80px; left:0px;'>
 			<a href="index.php" >
 			<img src="img/logo sem fundo.png"height="250" width="250" alt="img" id="imgpos" vspace="1" hspace="1" /></div>
@@ -35,8 +30,12 @@
 			
 			<div style='position:absolute; top:40px; right:0px;'>
 			<a href="login.php"class="classe2" > Login &nbsp&nbsp&nbsp&nbsp</a></div>	
-
+<div class="header-preto"></div>
 </header>
+
+
+
+        </div>
 </html>
 <!--///////////////////////////////////////////////////////////////////////////////////////-->
 <!--///////////////////////////////////////////diretriz/////////////////////////////////////////////////-->
