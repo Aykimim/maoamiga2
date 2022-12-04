@@ -19,18 +19,24 @@
 	
 		<header>
 			
-
-			<div style='position:absolute; top:-80px; left:0px;'>
-			<a href="index.php" >
-			<img src="img/logo sem fundo.png"height="250" width="250" alt="img" id="imgpos" vspace="1" hspace="1" /></div>
-			</a>	
+        <div class="header-preto"></div>
+		
+            <div style='position:absolute; top:-80px; left:0px;'>
+			<a href="index.php">
+			<img src="img/logo sem fundo.png"height="250" width="250" alt="img" id="imgpos" vspace="1" hspace="1" />
+			</a>
+		    </div>	
 
 			<div style='position:absolute; top:40px; right:0px;'>
-			<a href="cadastro.php" class="classe2"> Cadastro &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </a></div>
+			<a href="cadastro.php" class="classe2"> Cadastro &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			</a>
+		    </div>
 			
 			<div style='position:absolute; top:40px; right:0px;'>
-			<a href="login.php"class="classe2" > Login &nbsp&nbsp&nbsp&nbsp</a></div>	
-<div class="header-preto"></div>
+			<a href="login.php"class="classe2" > Login &nbsp&nbsp&nbsp&nbsp
+			</a>
+		    </div>	
+
 </header>
 
 
