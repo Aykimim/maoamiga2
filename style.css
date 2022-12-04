@@ -295,12 +295,12 @@ body {
 }
 
     /*//////////////////cadastos//////////////////////*/
- /* body{
+  body{
     margin: 0;
     padding: 0;
-    outline: none;
-    font-family: "Arial";
-  }*/
+    /*outline: none;
+    font-family: "Arial";*/
+  }
   
   .txt{
     height: 35px;
