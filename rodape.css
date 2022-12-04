@@ -1,6 +1,5 @@
  /*/////////////////////////////////////////rodape//////////////////////////*/
- footer
- *{
+ footer *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -17,8 +16,7 @@ right: 0;
 background: #03989e;
 height: auto;
 width: 100vw;
-
-padding-top: 5px;
+padding-top: 100px;
 color: #fff;
 }
 .footer-content{
