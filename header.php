@@ -6,10 +6,13 @@
      <meta charset="utf-8">
      <title>Mao amiga</title>
 	 <style rel='stylesheet' type='text/css'></style>
-	<link href='cabecalho.css' rel='stylesheet' type='text/css' />
+	<link href='css/cabecalho.css' rel='stylesheet' type='text/css' />
 	<link rel="icon" type="imagem/png" href="img/favicon-16x16.png">
-	<body style=" background-color : white;">
+	<!--<body style=" background-color : white;">-->
 </head>
+
+<html>
+<body>
 <!--///////////////////////////////////////////////////////////////////////////////////////-->
 
 <!--/////////////////////////////////////////cabecario//////////////////////////////////////////////-->
@@ -19,7 +22,7 @@
          <div class="header-logo">
 
 			<a href="index.php">
-			<img src="img/logo sem fundo.png" vspace="1" hspace="1" />
+			<img src="img/logo sem fundo.png" height="200" width="100"vspace="1" hspace="1" />
 			</a>
 			</div>
 			
@@ -39,6 +42,6 @@
 
 <!--///////////////////////////////////////////diretriz/////////////////////////////////////////////////-->
 
-	<link href='style.css' rel='stylesheet' type='text/css' />
+	<link href='css/style.css' rel='stylesheet' type='text/css' />
 
 <!--///////////////////////////////////////////////////////////////////////////////////////-->

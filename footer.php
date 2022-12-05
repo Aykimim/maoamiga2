@@ -1,5 +1,5 @@
 
-	<link href='rodape.css' rel='stylesheet' type='text/css' />
+	<link href='css/rodape.css' rel='stylesheet' type='text/css' />
 
 <!--/////////////////////////////////////////     roda pe      //////////////////////////////////////////////-->
 
@@ -30,7 +30,8 @@
         </div>
 
     </footer>
-
+</style>
+</body>
 </html>   
- </style>
+ 
  <!--///////////////////////////////////////////////////////////////////////////////////////-->
