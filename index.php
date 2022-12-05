@@ -1,9 +1,11 @@
-<?//php include 'proteger.php';?>
+<?php include 'proteger.php';?>
 <?php include 'header.php'; ?>
 
 <!-- Conteúdo -->
 
+<h2>  Bem vindo ao Painel, <?php echo $_SESSION['id_usuario']; ?>.</h2>
 
+ <p>  <a href="sair.php">Sair</a>    </p>
 		<!--/////////////////////////////////////////meio//////////////////////////////////////////////-->
         <html>
 		
@@ -21,11 +23,9 @@
 		<html>
 
 
-		<h2>  Bem vindo ao Painel, <?php echo $_SESSION['id_usuario']; ?>.</h2>
+		
 
-    <p>
-        <a href="sair.php">Sair</a>
-    </p>
+   
 
 	</html>
 		<!--/////////////////////////////////////////atalho na ajuda de localizacao//////////////////////////////////////////////-->

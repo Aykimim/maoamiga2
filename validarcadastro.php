@@ -63,7 +63,7 @@ $foto = $_FILES['foto'];
          move_uploaded_file($foto["tmp_name"], $caminho_imagem);
      
          // Insere os dados no banco
-         $sql = mysql_query("INSERT INTO Anunciante VALUES ('', '".$nome."', '".$nomeexibido."', '".$senhacd."', '".$email."', '".$biografia."', '".$cidade."', '".$servico."', '".$foto."', '".$nome_imagem."')");
+         $sql = mysql_query("INSERT INTO Anunciante VALUES ('.$nome.', '.$nomeexibido.', '.$senhacd.', '.$email.', '.$biografia.', '.$cidade.', '.$servico.', '.$foto.', '.$nome_imagem.')");
         
          // Se os dados forem inseridos com sucesso
          if ($sql){
