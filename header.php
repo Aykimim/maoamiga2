@@ -22,7 +22,7 @@
          <div class="header-logo">
 
 			<a href="index.php">
-			<img src="img/logo sem fundo.png" height="200" width="100"vspace="1" hspace="1" />
+			<img src="img/logo sem fundo.png" height="100" width="200" vspace="1" hspace="1" />
 			</a>
 			</div>
 			
