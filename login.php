@@ -45,7 +45,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
  
  <!-- formulario -->
  <html>	
-<body>
+
 	<h1>LOGIN</h1></br>
     <form action="" method="post">
 	
@@ -61,7 +61,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 
     </form>
 	
-</body>
+
  </html>	
 <!--fim Conteúdo -->
 <?php include 'footer.php'; ?>
