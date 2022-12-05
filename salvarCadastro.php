@@ -4,7 +4,7 @@
 
 <?
 
-include('conexao.php');
+
 
 $insertSQL = sprintf("INSERT INTO perfis (id, nome, usuario, foto) VALUES (%s, %s, %s, %s)",
 
