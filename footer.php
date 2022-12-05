@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
      <meta charset="utf-8">
-     <title>M達o amiga</title>
+     <title>Mao amiga</title>
 	 <style rel='stylesheet' type='text/css'>
 
 	</style>

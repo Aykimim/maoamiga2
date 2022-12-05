@@ -18,20 +18,20 @@
 	
 		<header>
 			
-        <div class="header-preto"></div>
+        
 		
-            <div class="logo">
+            <div class="header-logo">
 			<a href="index.php">
 			<img src="img/logo sem fundo.png"height="250" width="250" alt="img" id="imgpos" vspace="1" hspace="1" />
 			</a></div>
 		    	
 
-			<div class="cadlogin">
+			<div class="header-cadlogin">
 			<a href="cadastro.php" class="classe2">Cadastro</a> 
 			
 			<a href="login.php"class="classe2" >Login</a>
 			</div>	
-		    
+		    <div class="header-preto"></div>
 </header>
 
 
