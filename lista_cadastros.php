@@ -5,7 +5,10 @@
 <?php
 require ("conector.php");
 ?>
-
+<div id="divBusca">
+  <input type="text" id="txtBusca" placeholder="Buscar..."/>
+  <img src="lupa.png" id="btnBusca" alt="Buscar"/>
+</div>
 <?php
 $kimmim21_bancodedados = mysql_select_db("anunciante")
 ?>

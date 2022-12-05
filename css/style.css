@@ -180,17 +180,20 @@ body {
   
   /*//////////////////barra de pesquisa//////////////////////*/
   #divBusca{
-    background-color:#2F4F4F;
+    background-color:#fcfcfc;
     border:solid 1px;
     border-radius:15px;
     width:300px;
+     border: 1px solid;
+    border-radius: 6px;
+     border-color: rgb(10, 201, 235);
   }
   
   #txtBusca{
     float:left;
     background-color:transparent;
     padding-left:5px;
-    font-style:italic;
+    font-style: open sans;
     font-size:18px;
     border:none;
     height:32px;

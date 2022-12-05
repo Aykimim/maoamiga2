@@ -17,10 +17,12 @@
 		
 			</h2>
 		
-			<div id="divBusca">
-  <input type="text" id="txtBusca" placeholder="Buscar..."/>
+	    <div id="divBusca">
+
+  <input type="text" name="nome_anunciante" id="txtBusca" size="50" placeholder="Buscar..."/>
   <img src="lupa.png" id="btnBusca" alt="Buscar"/>
-</div>
+        </div>
+
 		</html>
 		<!--///////////////////////////////////////////////////////////////////////////////////////-->
 		<html>
