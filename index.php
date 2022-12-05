@@ -17,7 +17,10 @@
 		
 			</h2>
 		
-
+			<div id="divBusca">
+  <input type="text" id="txtBusca" placeholder="Buscar..."/>
+  <img src="lupa.png" id="btnBusca" alt="Buscar"/>
+</div>
 		</html>
 		<!--///////////////////////////////////////////////////////////////////////////////////////-->
 		<html>

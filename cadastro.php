@@ -9,7 +9,11 @@ require ("conector.php");
 	<div id="cadastro">
     	<form name="cadastro" method="post" enctype="multipart/form-data" action="validarcadastro.php">
     		<table id="tab_cadastro">
-            	<tr>
+            	<tr>    
+                    <td>Foto:</td>
+                    <td><input type="file" name="foto" required placeholder="Foto do usuario" id="foto" class="txt" /></td>
+                </tr>
+                <tr>
                 	<td>Nome:</td>
                     <td><input type="text" name="nome" required placeholder="Nome" id="nome" class="txt" /></td>
                 </tr>
@@ -21,10 +25,7 @@ require ("conector.php");
                     <td>E-mail:</td>
                     <td><input type="text" name="email" required placeholder="E-mail do Funcionário" id="email" class="txt" /></td>
                 </tr>
-                <tr>    
-                    <td>Senha:</td>
-                    <td><input type="text" name="senhacd" required placeholder="Senha cadastro" id="senhacd" class="txt" /></td>
-                </tr>
+                
                 <tr>    
                     <td>biogragia:</td>
                     <td><input type="text" name="biografia" required placeholder="biografia usuario" id="biografia" class="txt" /></td>
@@ -47,11 +48,15 @@ require ("conector.php");
                      <td>servico:</td>
                     <td><input type="text" name="servico" required placeholder="servico usuario" id="servico" class="txt" /></td>
                 </tr>
+                
                 <tr>    
-                    <td>Foto:</td>
-                    <td><input type="file" name="foto" required placeholder="Foto do usuario" id="foto" class="txt" /></td>
+                    <td>Senha:</td>
+                    <td><input type="text" name="senhacd" required placeholder="Senha cadastro" id="senhacd" class="txt" /></td>
                 </tr>
-               
+                <td>  Confirmar Senha:</td>
+                <tr> </label><br />
+                <td> <input type="password" name="csenha" placeholder="********" /></td>
+                 </tr>
                 <!-- Conteúdo https://rafaelcouto.com.br/upload-simples-de-imagem-com-php-mysql/-->
                 <tr>    
                     <td colspan="2"><input type="submit" value="Cadastrar" name="cadastrar" id="botao_cad"></td>
@@ -61,5 +66,50 @@ require ("conector.php");
     </div>
 	
 </html>
+
 <!-- fim Conteúdo -->		
 <?php include 'footer.php'; ?>
+
+<?php
+    if(isset($_POST["button"])) {
+        $nome       = $_POST["nome"];
+        $nomeexibido  = $_POST["nomeexibido"];
+        $email      = $_POST["email"];
+        $senha      = $_POST["senhacd"];
+        $csenha     = $_POST["csenha"];
+
+        $biografia = $_POST['biografia'];
+         $cidade = $_POST['cidade'];
+          $servico = $_POST['servico'];
+         $telefone = $_POST['telefone'];
+        $foto = $_FILES['foto'];
+
+        if($nome == "" || $sobrenome == "" || $email == "" || $senha == "" || $csenha == "") {
+            echo "<script> alert('Preencha todos os campos!'); </script>";
+            return true;
+        }
+        if ($senha != $csenha) {
+            echo "<script> alert ('As senhas devem ser iguais!'); </script>";
+            return true;
+        }   
+
+        $select = $mysqli->query("SELECT * FROM usuarios WHERE Email='$email'");
+        if($select) {
+        $row = $select->num_rows;
+        if($row > 0) {
+            echo "<script> alert ('Já existe um usuário com esse e-mail'); </script>";
+        } else {
+            $insert = $mysqli->query("INSERT INTO `usuarios`(`nome`, `sobrenome`, `email`, `senha`) VALUES ('$nome', '$sobrenome', '$email', '$senha')");
+        if($insert) {
+            echo "<script> alert ('Usuário registrado com sucesso!'); location.href='cadastrou.php' </script>";
+        }   else {
+                echo $mysqli->error;
+            }   
+        }
+    }   else{
+    echo $mysqli->error;
+
+    }   
+
+}       
+?>
