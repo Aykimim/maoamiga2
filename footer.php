@@ -1,15 +1,6 @@
-<!DOCTYPE HTML>
-<html lang="pt-br">
-<head>
-     <meta charset="utf-8">
-     <title>Mao amiga</title>
-	 <style rel='stylesheet' type='text/css'>
 
-	</style>
 	<link href='rodape.css' rel='stylesheet' type='text/css' />
 	<link rel="icon" type="imagem/png" href="/img/favicon-16x16.png">
-	<body style=" background-color : white;">
-</head>
 
 <!--/////////////////////////////////////////     roda pe      //////////////////////////////////////////////-->
 
