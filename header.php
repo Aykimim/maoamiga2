@@ -4,12 +4,11 @@
 <html lang="pt-br">
 <head>
      <meta charset="utf-8">
-     <title>Mão amiga</title>
-	 <style rel='stylesheet' type='text/css'>
+     <title>Mao amiga</title>
+	 <style rel='stylesheet' type='text/css'></style>
 
-	</style>
 	<link href='cabecalho.css' rel='stylesheet' type='text/css' />
-	<link rel="icon" type="imagem/png" href="/img/favicon-16x16.png">
+	<link rel="icon" type="imagem/png" href="img/favicon-16x16.png">
 	<body style=" background-color : white;">
 </head>
 <body>
@@ -27,7 +26,7 @@
 			</a></div>
 		    	
 
-			<div class="header">
+			<div class="cadlogin">
 			<a href="cadastro.php" class="classe2">Cadastro</a> 
 			
 			<a href="login.php"class="classe2" >Login</a>

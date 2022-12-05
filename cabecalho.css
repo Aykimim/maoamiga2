@@ -5,32 +5,49 @@
     background:gray;
     font-family:Arial;
   }*/
-
+  header {
+      margin: 0;
+      padding: 0;
+      /*box-sizing: border-box;*/
+      }
+      body{
+      background: #fcfcfc;
+      font-family: sans-serif;
+      }
   header{
-    display:block;
-  /*position:fixed;*/
     position: absolute;
     top:0;
-    left:0;
-    width:100%;
+    left:0;    
+    right: 0;
     background:#03989e;
-    text-align:center;
-    
-    padding-left: 10px;
-  height: auto;
-  width: 100vw;
+    height: auto;
+    width:100vw;
+    padding-top: 1px;
+    color: #fff;
+    text-align:center;   
+
   }
-    .logo{
-    width: 100vw;
-    padding: 60px;
-    padding-bottom: 40px;
-    text-align: center;
+    .header-logo{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem 0 1rem 0;
     }
 
   .header-preto{
     background: #000;
     width: 100vw;
-    padding: 60px;
-    padding-bottom: 40px;
+    padding: 0px;
+    padding-bottom: 50px;
     text-align: center;
     }
+    .header-cadlogin{
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      align-content: space-between;
+  }
+    
