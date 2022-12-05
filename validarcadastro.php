@@ -23,11 +23,11 @@ $foto = $_FILES['foto'];
   if (!empty($foto["name"])) {
         
      // Largura máxima em pixels
-     $largura = 150;
+     $largura = 3000;
      // Altura máxima em pixels
-     $altura = 180;
+     $altura = 3000;
      // Tamanho máximo do arquivo em bytes
-     $tamanho = 1000;
+     $tamanho = 3000;
      $error = array();
      // Verifica se o arquivo é uma imagem
      if(!preg_match("/^image\/(pjpeg|jpeg|png|gif|bmp)$/", $foto["type"])){

@@ -31,7 +31,13 @@ require ("conector.php");
                 </tr>
                 <tr>    
                     <td>cidade:</td>
-                    <td><input type="text" name="cidade" required placeholder="cidade usuario" id="cidade" class="txt" /></td>
+                    <td><input type="text" name="cidade" required placeholder="cidade usuario" id="cidade" class="txt" />
+                    <select name="cidade">
+                    <option value="Manhuaçu">Manhuaçu</option>
+                    <option value="Manhumirim">Manhumirim</option>
+                    <option value="Simonesia">Simonesia</option>
+                    </select>
+                </td>
                 </tr>
                 <tr>    
                     <td>telefone:</td>

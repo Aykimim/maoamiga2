@@ -33,8 +33,46 @@ echo "<meta HTTP-EQUIV='Refresh' CONTENT='0; URL=index.php'>";
 
 <!--//////////////////mostra o conteudo na pagina////////////////////-->
 <img src="<? echo $foto; ?>" width="100"/>
+<?php
+$kimmim21_bancodedados = mysql_select_db("comentario")
+?>
 
-		
+<form name="form" method="post" action="#">
+Nome:
+<input type=text name=nome>
+<br><br>
+Mensagem:
+<br><textarea name=comentario></textarea>
+<br><br>
+<input type=submit value=Enviar>
+<input type=reset value=Limpar>
+</form>
+<?php
+$nome=$_POST['nome'];
+$data = date("Y/m/d");           
+$comentario=$_POST['comentario'];
+?>
+<hr>
+
+<?php
+$insert = mysql_query("INSERT INTO comentario(nome,data,comentario) 
+values('$nome','$data','$comentario')");
+
+$sql = "SELECT * FROM tbcomentarios ORDER BY id desc";
+
+$executar = mysql_query($sql);
+
+while( $exibir = mysql_fetch_array($executar)){
+echo $exibir['data'];
+echo "</br>";
+echo $exibir['nome'];
+echo "</br>";
+echo $exibir['email'];
+echo "</br>";
+echo $exibir['comentario'];
+echo "</br><hr>";
+}
+?>		
 </html>
 <!-- fim Conteúdo -->	
 <?php include 'footer.php'; ?>

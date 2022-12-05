@@ -26,9 +26,10 @@
 			</a>
 			</div>
 			
-			<div class="header-cadlogin">
+			<div class="header-cad">
 			<a href="cadastro.php" >Cadastro</a> 
-			
+			</div>	
+			<div class="header-login">
 			<a href="login.php" >Login</a>
 			</div>	
 		  
