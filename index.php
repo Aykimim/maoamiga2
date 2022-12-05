@@ -1,5 +1,6 @@
+<?//php include 'proteger.php';?>
 <?php include 'header.php'; ?>
-<?php include('proteger.php');?>
+
 <!-- Conteúdo -->
 
 

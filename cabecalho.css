@@ -6,9 +6,12 @@
     font-family:Arial;
   }*/
   header {
+    
       margin: 0;
       padding: 0;
-      /*box-sizing: border-box;*/
+      /*
+      display: flex
+      box-sizing: border-box;*/
       }
       body{
       background: #fcfcfc;
@@ -44,10 +47,11 @@
     }
     .header-cadlogin{
       display: flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: baseline;
       flex-direction: row-reverse;
       flex-wrap: wrap;
       align-content: space-between;
+      margin: 1rem  1rem
   }
     

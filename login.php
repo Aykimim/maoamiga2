@@ -2,9 +2,9 @@
 <!-- Conteúdo -->
 
  <!-- Carregar as sessões para a memória... -->
+ <?php include('conector.php'); ?>
+ 
  <?php
-include('conector.php');
-
 if(isset($_POST['email']) || isset($_POST['senha'])) {
 
     if(strlen($_POST['email']) == 0) {
