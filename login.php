@@ -29,7 +29,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
                 session_start();
             }
 
-            $_SESSION['id'] = $usuario['id'];
+            $_SESSION['id_usuario'] = $usuario['id_usuario'];
            // $_SESSION['nome'] = $usuario['nome'];
 
             header("Location: index.php");
@@ -62,6 +62,6 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     </form>
 	
 </body>
- <html>	
+ </html>	
 <!--fim Conteúdo -->
 <?php include 'footer.php'; ?>
