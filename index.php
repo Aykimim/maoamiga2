@@ -1,15 +1,13 @@
-<?php include 'proteger.php';?>
-<?php include 'header.php'; ?>
+<?php// include 'proteger.php';?>
 
-<!-- Conteúdo -->
+<?php include 'header.php'; ?>
+ <!--Conteúdo -->
 
 <h2>  Bem vindo ao Painel, <?php echo $_SESSION['id_usuario']; ?>.</h2>
 
  <p>  <a href="sair.php">Sair</a>    </p>
-		<!--/////////////////////////////////////////meio//////////////////////////////////////////////-->
-        <html>
-		
-
+		<!--MEIO EM CIMA-->
+        		
 			<h2>
 				&nbsp Encontre</br>
 				&nbsp Profissionais</br>
@@ -23,19 +21,13 @@
   <img src="lupa.png" id="btnBusca" alt="Buscar"/>
         </div>
 
-		</html>
+		
 		<!--///////////////////////////////////////////////////////////////////////////////////////-->
-		<html>
-
-
 		
 
-   
+		<!--atalho na ajuda de localizacao(EXCLUIR DEPOIS QUE ACABAR)-->
 
-	</html>
-		<!--/////////////////////////////////////////atalho na ajuda de localizacao//////////////////////////////////////////////-->
-
-		<html>
+		
 		</br>
 	</br>
 </br>
@@ -56,12 +48,12 @@
 			<a href="politica.php" id=n> PAGINA QUE FALA DAS POLITICAS DO SITE </a></br>
 			<a href="sobre.php" id=o> PAGINA QUE FALA SOBRE O SITE </a></br>
 
-			</html>
+			
 	<!--///////////////////////////////////////////////////////////////////////////////////////-->
 
 	
-	<!--/////////////////////////////////////////     cidades       //////////////////////////////////////////////-->
-	<html>		
+	<!--    cidades    -->
+		
 	<side><!-- Navegação da página... -->
 			<h5><center>Estado de Minas Gerais</center>	</h5>
 			
@@ -76,7 +68,7 @@
 			</div>
 			</side>
 
-</html>
+
 <!--///////////////////////////////////////////////////////////////////////////////////////-->
 
 

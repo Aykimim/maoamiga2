@@ -1,7 +1,10 @@
 /*alerta confirmacao de envio de mensagen do contato*/
+
 <script type='text/javascript'>alert('Mensagem enviada com sucesso');</script>
 
-/*////////////////////logo que cai\\\\\\\\\\\\\\
+/*alerta confirmacao de envio de mensagen do contato*/
+
+/*logo que cai
 const flags = {
     rightOrigin: {
       firstBreak: false,
@@ -63,4 +66,4 @@ const flags = {
       el.style.paddingLeft = 'calc(100% - 67px)';
     }
   }
-  */
+  /* FIM logo que cai*/

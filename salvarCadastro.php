@@ -1,6 +1,4 @@
-<?php
-    require ("conector.php");
-    ?>
+<?php require("conector.php"); ?>
 
 <?
 
