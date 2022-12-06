@@ -2,7 +2,8 @@
 
 <?php include 'header.php'; ?>
  <!--Conteúdo -->
-
+<nav>
+<HTml>
 <h2>  Bem vindo ao Painel, <?php echo $_SESSION['id_usuario']; ?>.</h2>
 
  <p>  <a href="sair.php">Sair</a>    </p>
@@ -14,16 +15,14 @@
 				&nbsp de Alto Padrão</br>
 		
 			</h2>
-		
+		<!--BARRA DE PESQUISA-->
 	    <div id="divBusca">
 
   <input type="text" name="nome_anunciante" id="txtBusca" size="50" placeholder="Buscar..."/>
   <img src="lupa.png" id="btnBusca" alt="Buscar"/>
         </div>
 
-		
-		<!--///////////////////////////////////////////////////////////////////////////////////////-->
-		
+		<!--FIM DA BARRA DE PESQUISA-->
 
 		<!--atalho na ajuda de localizacao(EXCLUIR DEPOIS QUE ACABAR)-->
 
@@ -68,12 +67,8 @@
 			</div>
 			</side>
 
-
-<!--///////////////////////////////////////////////////////////////////////////////////////-->
-
-
-
-<!--//////////////////////////////////////////  roda pe  /////////////////////////////////////////////-->
-
+<!---->
+</HTml>
+</nav>
 <!-- fim Conteúdo -->
 <?php include 'footer.php'; ?>
