@@ -1,0 +1,153 @@
+<!--///////////////////////////////////////////diretriz/////////////////////////////////////////////////-->
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<!-- Ola, Eykimim -->
+<head>
+     <meta charset="utf-8">
+     <title>Mao amiga</title>
+	 <style rel='stylesheet' type='text/css'>
+	</style>
+	<link rel="icon" type="imagem/png" href="img/favicon-16x16.png">
+	<link href='style.css' rel='stylesheet' type='text/css' />
+	<!--
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+     -->
+</head>
+<body background="white">
+
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+<!--/////////////////////////////////////////cabecario//////////////////////////////////////////////-->
+	
+		<header>
+			
+         <div class="header-logo">
+
+			<a href="index.php">
+			<img src="img/logo sem fundo.png" height="100" width="200" vspace="1" hspace="1" />
+			</a>
+			</div>
+			
+			<div class="header-cad">
+			<a href="cadastro.php" >Cadastro</a> 
+			</div>	
+			<div class="header-login">
+			<a href="login.php" >Login</a>
+			</div>	
+		  		
+		<div class="header-preto"></div>    	
+
+        </header>
+		<?php// include 'proteger.php';?>
+
+<?php include 'header.php'; ?>
+ <!--Conteúdo -->
+
+<h2>  Bem vindo ao Painel, <?php echo $_SESSION['id_usuario']; ?>.</h2>
+
+ <p>  <a href="sair.php">Sair</a>    </p>
+		<!--MEIO EM CIMA-->
+        		
+			<h2>
+				&nbsp Encontre</br>
+				&nbsp Profissionais</br>
+				&nbsp de Alto Padrão</br>
+		
+			</h2>
+		
+	    <div id="divBusca">
+
+  <input type="text" name="nome_anunciante" id="txtBusca" size="50" placeholder="Buscar..."/>
+  <img src="lupa.png" id="btnBusca" alt="Buscar"/>
+        </div>
+
+		
+		<!--///////////////////////////////////////////////////////////////////////////////////////-->
+		
+
+		<!--atalho na ajuda de localizacao(EXCLUIR DEPOIS QUE ACABAR)-->
+
+		
+		</br>
+	</br>
+</br>
+<a href="home.php" id=h> PAGINA INICIAL PORQUE CRIEI ISSO SE TEM INDEX? </a></br>
+		    <a href="base.php" id=a> CODIGO BASE </a></br>
+		    <a href="index.php" id=i> INDEX PRIMEIRA PAGINA </a></br>
+			<a href="cadastro.php" id=b> CADASTRO </a></br>
+			<a href="lista_cadastros.php" id=b> CADASTRO </a></br>			
+			<a href="perdipassword.php" id=b> perdipassword </a></br>
+			<a href="construcao.php" id=c> EM CONSTRUCAO </a></br>
+			<a href="contato.php" id=d> CONTATOS DO SITE </h3></br>
+			<a href="escolha.php" id=e> ESCOLHA ENTRE LOGIN E CADASTRAR </a></br>
+			<a href="esqueceu.php" id=f> ESQUECEU A SENHA </a></br>
+			<a href="exibe_cadastros.php" id=g> EXIBIR CADASTROS </a></br>				
+			<a href="login.php" id=j> LOGIN </a></br>
+			<a href="perfis editor.php" id=k> ONDE O DONO DO PERFIL VAI EDITAR ELE </a></br>
+			<a href="perfis.php" id=m> EXIBICAO DO PERFIL </a></br>
+			<a href="politica.php" id=n> PAGINA QUE FALA DAS POLITICAS DO SITE </a></br>
+			<a href="sobre.php" id=o> PAGINA QUE FALA SOBRE O SITE </a></br>
+
+			
+	<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+	
+	<!--    cidades    -->
+		
+	<side><!-- Navegação da página... -->
+			<h5><center>Estado de Minas Gerais</center>	</h5>
+			
+				<div class="contato">
+				
+					<img src="img/manhuacu.png" alt="descrição da imagem"  height="200" width="200" vspace="5" hspace="4">
+				
+					<img src="img/manhumirim.png" alt="descrição da imagem" height="200" width="200" vspace="5" hspace="4">
+				
+					<img src="img/simonesia.png" alt="descrição da imagem"  height="200" width="200" vspace="5" hspace="4">
+				
+			</div>
+			</side>
+
+
+<!--///////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+<!--//////////////////////////////////////////  roda pe  /////////////////////////////////////////////-->
+
+<!-- fim Conteúdo -->
+<?php include 'footer.php'; ?>
+<!--roda pe      //////////////////////////////////////////////-->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <footer>
+        <div class="footer-content">
+            <a href="index.php"><p>  Mao amiga</p></a>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/yasmim.dutra.9699?mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://mobile.twitter.com/eykimim18"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://br.linkedin.com/in/eykimim-pereira-4763841a2?trk=public_profile_samename-profile"><i class="fa fa-linkedin-square"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/yasmim-dutra-57747218b"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="sobre.php">Sobre</a></li>
+                        <li><a href="contato.php">Contato</a></li>
+                        <li><a href="politica.php">Politica</a></li>
+						<li><a href="cadastro.php">Anunciar</a></li>
+                      </ul>
+                    </div>
+        </div>
+    
+    </footer>
+</style>
+</body>
+</html>   
+ 
+ <!--///////////////////////////////////////////////////////////////////////////////////////-->
