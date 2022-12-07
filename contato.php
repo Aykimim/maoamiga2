@@ -34,10 +34,7 @@ Para entrar em contato preencher o formulario</br>
         <input type="text" name="email"placeholder="Digite seu E-Mail:" class="fade_8S" required>
  
 
-   <!-- <div>
-        <label for="msg">Telefone:</label>
-        <input type="text" id="telefone"name="usuario_tel"placeholder="Digite seu Telefone"> 
-    </div>-->
+
 
 
         </br><label for="msg"><span>Escreva sua mensagem:</span></label>

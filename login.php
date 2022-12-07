@@ -30,7 +30,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
             }
 
             $_SESSION['id_usuario'] = $usuario['id_usuario'];
-           // $_SESSION['nome'] = $usuario['nome'];
+        
 
             header("Location: index.php");
 
@@ -43,9 +43,8 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 }
 ?>
  
- <!-- formulario -->
+ <!-- formulario de login -->
  	
-
 	<h1>LOGIN</h1></br>
     <form action="" method="post">
 	
@@ -60,8 +59,6 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 
 
     </form>
-	
-
  	
-<!--fim Conteúdo -->
+<!--fim formulario de login -->
 <?php include 'footer.php'; ?>
